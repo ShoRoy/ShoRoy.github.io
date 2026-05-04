@@ -1,0 +1,61 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "projects/*.qmd"
+  resources:
+    - "assets/Shobhan_Roy_Industry_Resume.pdf"
+    - "assets/og-card.png"
+    - "assets/favicon.png"
+    - "assets/favicon-32.png"
+    - "assets/frame-impact.png"
+    - "assets/frame-collapse.png"
+    - "assets/frame-late.png"
+
+website:
+  title: "Shobhan Roy"
+  site-url: "https://ShoRoy.github.io"
+  description: "Computational physicist and SciML researcher working on multi-physics modeling and physics-aware AI."
+  image: assets/og-card.png
+  favicon: assets/favicon.png
+  navbar:
+    pinned: true
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Projects"
+        href: projects/index.qmd
+      - text: "Research"
+        href: research.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: "Resume"
+        href: cv.qmd
+      - text: "Contact"
+        href: contact.qmd
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/shobhan-roy
+        aria-label: LinkedIn
+      - text: "Resume"
+        href: assets/Shobhan_Roy_Industry_Resume.pdf
+  page-footer:
+    left: "Copyright 2026 Shobhan Roy"
+    center: '<span class="footer-updated">Last updated May 3, 2026</span>'
+    right: "Built with Quarto &middot; Authored by Shobhan Roy with AI-assisted tooling (VS Code + Copilot agents)"
+  open-graph: true
+  twitter-card: true
+  search: false
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    smooth-scroll: true
+    page-layout: full
+    link-external-newwindow: true
+
+execute:
+  freeze: auto

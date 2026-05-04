@@ -1,0 +1,34 @@
+---
+title: "Physics-Aware ML Benchmarks (PARC / D-PARC)"
+summary: "Curating DNS ground truth and physics-consistent evaluation protocols for neural surrogates of shocked energetic-material response."
+---
+
+## Problem
+
+Neural surrogates for transient, shock-driven multi-physics problems are often evaluated on image-similarity metrics that ignore the governing PDEs. The result: models that look right and predict wrong &mdash; conservation, interface conditions, and entropy constraints quietly violated. For surrogates to be trustworthy in materials and simulation pipelines, evaluation has to be physics-consistent, not pixel-consistent.
+
+## Technical Approach
+
+As the simulation-side lead for the University of Virginia (Baek group) collaboration, I curate ground-truth DNS databases across canonical flow problems and energetic-material regimes, select simulation parameters to maximize physical coverage, and define validation benchmarks for physics-aware neural architectures &mdash; PARC (Physics-Aware Recurrent Convolutions) and the D-PARC deformable-convolution extension. In parallel, I build data-driven surrogates and closure relations that link mesoscale hotspot metrics to macroscale continuum predictions, and I help define the physics-consistent evaluation protocols (conservation, interface conditions, entropy constraints) used to score them.
+
+## Scale and Constraints
+
+- DNS data spanning canonical flows and microstructure-resolved shock-initiation regimes.
+- Evaluation must respect the governing PDEs, not just match field snapshots.
+- Surrogate models targeted at use *inside* multi-scale simulation workflows, where unphysical predictions break downstream solvers.
+
+**Tech stack:** Python &middot; PyTorch (incl. PARCtorch) &middot; TensorFlow &middot; SCIMITAR3D-derived DNS pipelines &middot; HPC scheduling and parallel I/O.
+
+## Validation
+
+Models are scored against held-out DNS using physics-aware metrics: conservation residuals, interface tracking error, hotspot localization, and transient response characteristics &mdash; alongside standard field-error norms. The point is to fail loudly when the model violates physics it should not.
+
+## Outcome
+
+- **Preprint:** Beerman, **Roy**, Udaykumar, Baek &mdash; *Size is Not the Solution: Deformable Convolutions for Effective Physics-Aware Deep Learning*, arXiv (2026).
+- **Teaching:** TA (University of Iowa side) for the *Physics-Aware Deep Learning &mdash; PINNs, neural operators, PARC, reduced-order models* course offered jointly with the UVA School of Data Science (Spring 2026).
+
+## Links
+
+- Beerman, **Roy**, Udaykumar, Baek &mdash; *Size is Not the Solution&hellip;*, arXiv, 2026.
+- Related dataset / pipeline: see the [HEDS framework](heds.qmd) and [HPC campaigns](hpc-dns-campaigns.qmd) projects.

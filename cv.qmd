@@ -1,0 +1,34 @@
+---
+title: "Resume"
+description: "Downloadable resume and brief professional summary."
+---
+
+::: {.two-col}
+::: {}
+I am a computational physicist and scientific machine learning researcher specializing in high-performance multi-physics simulation, energetic materials, shock physics, and physics-aware deep learning.
+
+My work spans solver development, microstructure-resolved DNS, HPC production campaigns, and simulation-grounded ML evaluation for energetic-material response under extreme loading.
+
+<div class="actions">
+  <a class="button primary" href="assets/Shobhan_Roy_Industry_Resume.pdf">Download Resume</a>
+  <a class="button" href="publications.qmd">Publications</a>
+</div>
+:::
+
+::: {.callout}
+### Current Focus
+
+- Shock-to-detonation simulation
+- Energetic-material microstructures
+- Physics-aware surrogate modeling
+- HPC-scale DNS and validation
+- Scientific AI workflows
+:::
+:::
+
+## Highlights
+
+- 7 peer-reviewed journal papers across **Shock Waves**, **Journal of Applied Physics**, **Journal of Fluid Mechanics**, and **APL Machine Learning**.
+- Production HPC campaigns resolving sub-micron damage features at 140M-cell, 7,000-core, ~2.8M CPU-hour scale.
+- Multi-institution research interfaces across AFOSR-MURI, ONR-MURI, UIUC, LANL, UVA, IIT Delhi, and IIT Madras collaborations.
+- Mentoring of 2 PhD students on simulation methodology, HPC workflows, and SCIMITAR3D adoption.

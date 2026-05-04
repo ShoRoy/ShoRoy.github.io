@@ -1,0 +1,29 @@
+---
+title: "Contact"
+description: "Contact links for Shobhan Roy."
+---
+
+For research, collaboration, or role-fit conversations, the fastest path is email.
+
+::: {.grid}
+::: {.card}
+### Email
+
+[shobhan21roy [at] gmail.com](mailto:shobhan21roy@gmail.com?subject=Website%20inquiry%20%E2%80%94%20)  
+[shobhan-roy [at] uiowa.edu](mailto:shobhan-roy@uiowa.edu?subject=Website%20inquiry%20%E2%80%94%20)
+:::
+
+::: {.card}
+### Profiles
+
+[LinkedIn](https://www.linkedin.com/in/shobhan-roy)  
+[Google Scholar](https://scholar.google.com/citations?user=bvv9o2cAAAAJ&hl=en)  
+[ORCID](https://orcid.org/0000-0002-9361-5367)
+:::
+
+::: {.card}
+### Location
+
+Iowa City, IA, USA
+:::
+:::

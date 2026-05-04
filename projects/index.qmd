@@ -1,0 +1,53 @@
+---
+title: "Projects"
+description: "Selected computational physics, HPC, and scientific machine learning case studies."
+---
+
+Each case study follows the practical arc a technical reader usually wants: problem, approach, scale, validation, and artifact.
+
+::: {.grid}
+::: {.card}
+### SCIMITAR3D solver development
+
+Sharp-interface, multi-material reactive-flow framework. WENO + ghost-fluid integration cuts the grid-refinement overhead for equivalent accuracy by roughly 2.5&ndash;3&times;.
+
+[Open project](scimitar3d.qmd)
+:::
+
+::: {.card}
+### Production HPC campaigns
+
+Microstructure-resolved mesoscale simulations on DoD HPC systems &mdash; 140M cells, 7,000 cores, ~2.8M CPU-hours per campaign &mdash; sized so hotspot statistics actually converge.
+
+[Open project](hpc-dns-campaigns.qmd)
+:::
+
+::: {.card}
+### HEDS framework
+
+Diffusion / U-Net / CycleGAN microstructure generation paired with high-fidelity simulation to study damage&ndash;sensitivity behavior under shock loading.
+
+[Open project](heds.qmd)
+:::
+
+::: {.card}
+### Physics-aware ML benchmarks
+
+DNS ground truth and physics-consistent evaluation for PARC and D-PARC neural surrogates of shocked energetic-material response.
+
+[Open project](physics-aware-ml.qmd)
+:::
+:::
+
+## Tools and stack
+
+::: {.focus-strip}
+<div>Fortran 90 / C++ / Python</div>
+<div>MPI &middot; Slurm / PBS &middot; DoD HPC</div>
+<div>PyTorch &middot; PARCtorch &middot; TensorFlow</div>
+<div>ParaView &middot; Tecplot &middot; MATLAB</div>
+:::
+
+## See also
+
+[Research](../research.qmd) for the scientific questions and methodological frame that shape these projects.

@@ -1,0 +1,34 @@
+---
+title: "HEDS Framework"
+summary: "A deep learning and computational mechanics framework for damage-sensitivity linkages in energetic microstructures."
+---
+
+::: {.wide-media}
+![](../assets/frame-collapse.png){fig-alt="Simulation snapshot showing pore collapse and damage signatures during shock loading of an HMX crystal-binder microstructure."}
+<div class="caption">Mid-simulation snapshot used in HEDS-style evaluation: pore collapse and damage signatures in a shocked HMX crystal-binder microstructure.</div>
+:::
+
+## Problem
+
+Energetic-material sensitivity is controlled by how microstructure concentrates energy under shock loading: where pores collapse, how damage accumulates, whether a hotspot grows or decays. The practical question for a hiring lens: given a synthetic or imaged microstructure, can we predict whether it is more or less likely to ignite under shock &mdash; with physics constraints baked in rather than learned by accident?
+
+## Technical Approach
+
+HEDS pairs deep generative microstructure modeling with computational mechanics. ML-generated microstructures (diffusion models, U-Net, CycleGAN) feed into high-fidelity simulations, and the simulation response is used to evaluate and interpret the learned representations. My contribution centered on the simulation and physics-validation side: curating high-fidelity simulation outputs, defining physically grounded evaluation criteria, and analyzing damage&ndash;sensitivity behavior on the generated structures. ML architecture and training were led by collaborators (co-developed with 2 PhD students).
+
+## Scale and Constraints
+
+The pipeline needed simulation-ready microstructures, physically grounded response quantities (pressure/temperature field evolution, hotspot statistics), and a comparison workflow for synthetic vs. imaged microstructures that respected conservation and damage-mechanics constraints.
+
+## Validation
+
+Validation asked whether generated microstructures preserved physically meaningful trends in damage, hotspot formation, and shock response &mdash; not just visual realism. SCIMITAR3D simulation outputs served as ground-truth anchors.
+
+## Outcome
+
+- **Publication:** *Heterogeneous Energetic Material Damage Simulator (HEDS)* in **APL Machine Learning** 3(2), 2025.
+- **Topical context:** HEDS sits in a broader thread of physics-aware ML for energetic materials at Iowa and partner institutions, alongside parallel work on the PARC and D-PARC architectures (separate UVA collaboration).
+
+## Links
+
+- Fang, **Roy**, Nguyen, Baek, Udaykumar &mdash; *Heterogeneous Energetic Material Damage Simulator (HEDS)*, **APL Machine Learning** 3(2), 2025.

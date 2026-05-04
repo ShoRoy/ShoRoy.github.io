@@ -1,0 +1,30 @@
+---
+title: "Research"
+description: "Research themes in shock physics, energetic materials, HPC simulation, and physics-aware scientific machine learning."
+---
+
+My work sits at the interface of computational physics, high-performance simulation, and physics-aware machine learning for extreme-condition material response. The common thread is model credibility: building workflows where data, numerics, and learning systems remain tied to conservation laws, interfaces, validation data, and physical observables.
+
+## Research Pipeline
+
+1. **Microstructure and data curation** - Convert SEM/CT and nano-CT micrographs or generated microstructures into simulation-ready geometries using segmentation, level-set, signed-distance, and image-processing workflows.
+2. **High-fidelity simulation** - Resolve crystal-binder interfaces, voids, shock waves, pore collapse, hotspot growth, and reactive dynamics using sharp-interface multi-material solvers.
+3. **HPC production campaigns** - Use MPI, domain decomposition, scheduler workflows, and parallel post-processing to generate datasets at physically meaningful resolution.
+4. **Physics-aware learning** - Evaluate surrogate models, neural operators, PARC-family architectures, and generated microstructures against conservation, interface behavior, and physically interpretable response metrics.
+
+## Open Questions
+
+The questions below shape what I build, run, and benchmark. They are the reason the pipeline above exists in that order.
+
+- **When does microstructural heterogeneity dominate hotspot statistics?** Pore morphology, binder coupling, and crystal orientation distributions all matter, but the regimes in which each governs ignition behavior are still being mapped.
+- **How do we evaluate ML surrogates against shock-physics invariants?** Pixel-wise error is not a physics metric. Useful evaluation has to track wave structure, conservation, interface behavior, and reaction-zone response, not just visual similarity.
+- **Where do sharp-interface methods strain under reactive multi-material coupling?** Stiff reactions, large impedance contrasts, and topology change at collapsing interfaces all stress the assumptions in standard ghost-fluid and level-set treatments.
+- **What microstructural features must generative models preserve to be physically usable?** Synthetic microstructures are only useful downstream if they reproduce the statistics that actually drive the simulation response, not just the ones that look right by eye.
+
+## Collaboration Interfaces
+
+The research has connected simulation, experiment, and machine learning across University of Iowa, UIUC, Los Alamos National Laboratory, University of Virginia, IIT Delhi, IIT Madras, AFOSR, ONR, and DRDO contexts.
+
+## See also
+
+[Projects](projects/index.qmd) for the solver, HPC campaigns, generative framework, and ML benchmarks that operationalize the questions above.

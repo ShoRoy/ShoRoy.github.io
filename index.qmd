@@ -1,0 +1,147 @@
+---
+pagetitle: "Shobhan Roy"
+description: "Computational physicist and SciML researcher working on multi-physics modeling and physics-aware AI."
+image: assets/og-card.png
+---
+
+```{=html}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Shobhan Roy",
+  "jobTitle": "Postdoctoral Research Scholar",
+  "affiliation": {
+    "@type": "Organization",
+    "name": "IIHR - Hydroscience & Engineering, University of Iowa"
+  },
+  "url": "https://ShoRoy.github.io",
+  "image": "https://ShoRoy.github.io/assets/headshot.jpg",
+  "sameAs": [
+    "https://scholar.google.com/citations?user=bvv9o2cAAAAJ&hl=en",
+    "https://orcid.org/0000-0002-9361-5367",
+    "https://www.linkedin.com/in/shobhan-roy"
+  ],
+  "knowsAbout": [
+    "Computational Physics",
+    "Scientific Machine Learning",
+    "Shock Physics",
+    "Energetic Materials",
+    "Multi-Physics Simulation",
+    "High-Performance Computing",
+    "Sharp-Interface Methods",
+    "Physics-Aware Deep Learning"
+  ]
+}
+</script>
+```
+
+::: {.hero}
+::: {}
+<div class="eyebrow">Postdoctoral Research Scholar &middot; University of Iowa</div>
+
+# Shobhan Roy
+
+Computational physicist and SciML researcher working on multi-physics modeling and physics-aware AI.
+
+<p class="dek">I'm a postdoctoral researcher at the University of Iowa specializing in shock physics, energetic materials, and physics-aware deep learning. My work spans high-fidelity finite-volume and sharp-interface solver development, production-scale simulation campaigns on DoD HPC systems, and the design of validation benchmarks and surrogate models that connect material microstructure, hotspot dynamics, and continuum response under extreme loading.</p>
+
+<div class="actions">
+  <a class="button primary" href="projects/index.qmd">View projects</a>
+  <a class="button" href="assets/Shobhan_Roy_Industry_Resume.pdf">Download Resume</a>
+  <a class="button" href="contact.qmd">Contact</a>
+</div>
+:::
+
+::: {}
+![](assets/headshot.jpg){.headshot fig-alt="Professional headshot of Shobhan Roy"}
+:::
+:::
+
+::: {.focus-strip}
+<div>Sharp-interface multi-material solvers</div>
+<div>Production HPC campaigns</div>
+<div>Physics-aware deep learning</div>
+<div>Microstructure-to-response modeling</div>
+:::
+
+::: {.feature}
+::: {}
+## From microstructure to continuum response
+
+My work connects image-derived microstructures of energetic composites, sharp-interface mesoscale simulation, and physics-aware ML so that surrogate models can be evaluated on quantities that matter physically: pore collapse, hotspot formation, shear localization, shock propagation, damage evolution, and the resulting continuum response under extreme loading.
+
+The site highlights four threads: SCIMITAR3D solver development, production HPC campaigns on DoD systems, the HEDS microstructure-to-sensitivity framework, and physics-aware ML benchmarks for PARC / D-PARC neural surrogates.
+:::
+
+::: {}
+![](assets/shock-pore-collapse.gif){fig-alt="Simulated temperature contours showing shock interaction with an HMX crystal-binder microstructure, pore collapse, and shear-band formation."}
+<div class="caption">Simulation visual from PhD work: flyer-impact shock interaction with an HMX crystal in binder, pore collapse, and shear-band formation.</div>
+:::
+:::
+
+## Featured Projects
+
+::: {.grid}
+::: {.card}
+### SCIMITAR3D solver development
+
+Sharp-interface, multi-material reactive-flow framework. WENO + ghost-fluid integration cuts the grid-refinement overhead for equivalent accuracy by roughly 2.5&ndash;3&times;.
+
+[Read case study](projects/scimitar3d.qmd)
+:::
+
+::: {.card}
+### Production HPC campaigns
+
+Microstructure-resolved mesoscale simulations on DoD HPC systems &mdash; 140M cells, 7,000 cores, ~2.8M CPU-hours per campaign.
+
+[Read case study](projects/hpc-dns-campaigns.qmd)
+:::
+
+::: {.card}
+### HEDS framework
+
+Diffusion / U-Net / CycleGAN microstructure generation paired with high-fidelity simulation to study damage&ndash;sensitivity behavior.
+
+[Read case study](projects/heds.qmd)
+:::
+
+::: {.card}
+### Physics-aware ML benchmarks
+
+DNS ground truth and physics-consistent evaluation for PARC and D-PARC neural surrogates of shocked energetic-material response.
+
+[Read case study](projects/physics-aware-ml.qmd)
+:::
+:::
+
+## Selected Publications
+
+- Fang, I., **Roy, S.**, Nguyen, P.C.H., Baek, S.S., Udaykumar, H.S. - *Heterogeneous Energetic Material Damage Simulator (HEDS): A Deep Learning Approach to Simulate Damage-Sensitivity Linkages*, **APL Machine Learning** 3(2), 2025.
+- **Roy, S.**, Johnson, B.P., Zhou, X., Nguyen, Y.T.H., Dlott, D.D., & Udaykumar, H.S. - *Hot Spot Ignition and Growth from Tandem Micro-Scale Simulations and Experiments on Plastic-Bonded Explosives*, **Journal of Applied Physics** 131(20), 2022.
+- **Roy, S.**, Gopalapillai, R. - *An Analytical Model for Asymmetric Mach Reflection Configuration in Steady Flows*, **Journal of Fluid Mechanics** 863, 242-268, 2019.
+
+[See full publication list](publications.qmd)
+
+## Technical Capabilities
+
+::: {.grid}
+::: {.card}
+### Numerical methods
+
+High-order finite-volume methods, WENO-type reconstruction, level-set and ghost-fluid methods, operator splitting, and reactive multi-material coupling.
+:::
+
+::: {.card}
+### Scientific computing
+
+MPI-based production simulation, domain decomposition, Slurm/PBS workflows, parallel I/O, validation against experiments, and reproducible post-processing.
+:::
+
+::: {.card}
+### Physics-aware ML
+
+Simulation datasets, model evaluation protocols, microstructure generation interfaces, neural-operator/PARC-family benchmarking, and conservation-aware interpretation.
+:::
+:::
