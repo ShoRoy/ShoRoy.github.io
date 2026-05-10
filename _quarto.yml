@@ -15,7 +15,8 @@ project:
 
 website:
   title: "Shobhan Roy"
-  site-url: "https://ShoRoy.github.io"
+  site-url: "https://shobhanroy.com"
+  cname: shobhanroy.com
   description: "Computational physicist and SciML researcher working on multi-physics modeling and physics-aware AI."
   image: assets/og-card.png
   favicon: assets/favicon.png
