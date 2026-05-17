@@ -9,10 +9,14 @@ description: "Peer-reviewed journals, proceedings, preprints, and selected prese
   <a class="profile-badge" href="assets/Shobhan_Roy_Industry_Resume.pdf">Full Resume &rarr;</a>
 </div>
 
+## Preprint
+
+1. Beerman, J.T., **Roy, S.**, Udaykumar, H.S., Baek, S.S. - *Size is Not the Solution: Deformable Convolutions for Effective Physics-Aware Deep Learning*, arXiv (2026).
+
 ## Peer-Reviewed Journals
 
-1. Okafor, C., Seshadri, P.K., **Roy, S.**, & Udaykumar, H.S. - *High-Order Eulerian Sharp Interface Numerical Techniques for Computing Multi-Material Interaction Problems with an Arbitrary Number of Materials*, **Shock Waves** (accepted, in production, 2025).
-2. **Roy, S.**, Seshadri, P.K., Okafor, C., Johnson, B.P., & Udaykumar, H.S. - *High-Fidelity Simulations of Shock Initiation of an Energetic Crystal-Binder System Due to Flyer Impact*, **Shock Waves** (accepted, in production, 2025).
+1. Okafor, C., Seshadri, P.K., **Roy, S.**, & Udaykumar, H.S. - *High-Order Eulerian Sharp Interface Numerical Techniques for Computing Multi-Material Interaction Problems with an Arbitrary Number of Materials*, **Shock Waves** (accepted, in production, 2026).
+2. **Roy, S.**, Seshadri, P.K., Okafor, C., Johnson, B.P., & Udaykumar, H.S. - *High-Fidelity Simulations of Shock Initiation of an Energetic Crystal-Binder System Due to Flyer Impact*, **Shock Waves** 36(2), 2026. [doi:10.1007/s00193-025-01260-2](https://doi.org/10.1007/s00193-025-01260-2)
 3. Fang, I., **Roy, S.**, Nguyen, P.C.H., Baek, S.S., Udaykumar, H.S. - *Heterogeneous Energetic Material Damage Simulator (HEDS): A Deep Learning Approach to Simulate Damage-Sensitivity Linkages*, **APL Machine Learning** 3(2), 2025.
 4. **Roy, S.**, Johnson, B.P., Zhou, X., Nguyen, Y.T.H., Dlott, D.D., & Udaykumar, H.S. - *Hot Spot Ignition and Growth from Tandem Micro-Scale Simulations and Experiments on Plastic-Bonded Explosives*, **Journal of Applied Physics** 131(20), 2022.
 5. **Roy, S.**, Sandhu, J.P.S., Ghosh, S. - *Drag Reduction in Transonic Shock-Wave/Boundary-Layer Interaction Using Porous Medium: A Computational Study*, **Shock Waves** 31(2), 117-132, 2021.
@@ -25,10 +29,6 @@ description: "Peer-reviewed journals, proceedings, preprints, and selected prese
 9. Sahoo, A., **Roy, S.**, Ghosh, S. - *Numerical Investigation of Transonic Flow over Porous Medium Using Immersed Boundary Method*, **2018 Applied Aerodynamics Conference**, AIAA 2018-3339, 2018.
 10. **Roy, S.**, Subramaniam, K., Ghosh, S. - *Passive control of normal-shock-wave/boundary-layer interaction using porous medium: computational study*, **35th AIAA Applied Aerodynamics Conference**, AIAA 2017-3912, 2017.
 11. Sahoo, A., Ghosh, S., & **Roy, S.** - *Transonic flow past a porous medium: effect of porosity*, **AIAA Aviation 2019 Forum**, AIAA 2019-3076, 2019.
-
-## Preprint
-
-1. Beerman, J.T., **Roy, S.**, Udaykumar, H.S., Baek, S.S. - *Size is Not the Solution: Deformable Convolutions for Effective Physics-Aware Deep Learning*, arXiv (2026).
 
 ## Selected Presentations
 

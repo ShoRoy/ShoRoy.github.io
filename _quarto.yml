@@ -38,11 +38,10 @@ website:
       - icon: linkedin
         href: https://www.linkedin.com/in/shobhan-roy
         aria-label: LinkedIn
-      - text: "Resume"
+      - text: "Resume (PDF)"
         href: assets/Shobhan_Roy_Industry_Resume.pdf
   page-footer:
     left: "Copyright 2026 Shobhan Roy"
-    center: '<span class="footer-updated">Last updated May 3, 2026</span>'
     right: "Built with Quarto &middot; Authored by Shobhan Roy with AI-assisted tooling (VS Code + Copilot agents)"
   open-graph: true
   twitter-card: true

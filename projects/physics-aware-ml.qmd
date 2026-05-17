@@ -1,15 +1,19 @@
 ---
-title: "Physics-Aware ML Benchmarks (PARC / D-PARC)"
-summary: "Curating DNS ground truth and physics-consistent evaluation protocols for neural surrogates of shocked energetic-material response."
+title: "Physics-Aware ML: D-PARC Co-Architecture and DNS Benchmarks"
+summary: "Co-architecting D-PARC physics-aware neural operators and curating DNS ground truth for physics-consistent evaluation of PARC-family surrogates."
 ---
 
 ## Problem
 
-Neural surrogates for transient, shock-driven multi-physics problems are often evaluated on image-similarity metrics that ignore the governing PDEs. The result: models that look right and predict wrong &mdash; conservation, interface conditions, and entropy constraints quietly violated. For surrogates to be trustworthy in materials and simulation pipelines, evaluation has to be physics-consistent, not pixel-consistent.
+Neural surrogates for transient, shock-driven multi-physics problems are often evaluated on image-similarity metrics that ignore the governing PDEs. The result: models that look right and predict wrong &mdash; conservation, interface conditions, and entropy constraints quietly violated. For surrogates to be trustworthy *inside* materials and simulation pipelines, both the architecture and the evaluation have to be physics-consistent, not pixel-consistent.
 
 ## Technical Approach
 
-As the simulation-side lead for the University of Virginia (Baek group) collaboration, I curate ground-truth DNS databases across canonical flow problems and energetic-material regimes, select simulation parameters to maximize physical coverage, and define validation benchmarks for physics-aware neural architectures &mdash; PARC (Physics-Aware Recurrent Convolutions) and the D-PARC deformable-convolution extension. In parallel, I build data-driven surrogates and closure relations that link mesoscale hotspot metrics to macroscale continuum predictions, and I help define the physics-consistent evaluation protocols (conservation, interface conditions, entropy constraints) used to score them.
+My contribution to PARC-family research sits in two pillars.
+
+**D-PARC co-architecture.** I co-architected **D-PARC** &mdash; a physics-aware deformable-convolution neural operator built on the PARC (Physics-Aware Recurrent Convolutions) family for emulation of high-speed nonlinear transport &mdash; contributing the conceptual analogy between hybrid Lagrangian&ndash;Eulerian flow-solver schemes and the deformable-convolution operator (Beerman, **Roy**, Udaykumar, Baek, arXiv 2026). The analogy lets the network adapt its spatial receptive field to local advective structure the way an adaptive solver tracks features.
+
+**DNS benchmarks and physics-consistent evaluation.** As the simulation-side lead for the University of Virginia (Baek group) collaboration, I curate ground-truth DNS databases across canonical flow problems and energetic-material regimes, select simulation parameters to maximize physical coverage, and define the physics-consistent evaluation protocols &mdash; conservation residuals, interface tracking, entropy constraints &mdash; used to score both PARC and D-PARC. In parallel, I build data-driven surrogates and closure relations that link mesoscale hotspot metrics to macroscale continuum predictions.
 
 ## Scale and Constraints
 

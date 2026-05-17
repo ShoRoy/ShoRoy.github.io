@@ -5,7 +5,7 @@ summary: "Microstructure-resolved reactive simulations on DoD HPC systems, sized
 
 ::: {.wide-media}
 ![](../assets/frame-impact.png){fig-alt="Snapshot from a production-scale SCIMITAR3D run: shock interaction with an HMX crystal-binder configuration on a microstructure-resolved grid."}
-<div class="caption">Snapshot from a 140M-cell production campaign on DoD HPC: shock front interacting with a microstructure-resolved HMX-binder configuration during early initiation.</div>
+<div class="caption">Snapshot from a 150M-cell production campaign on DoD HPC: shock front interacting with a microstructure-resolved HMX-binder configuration during early initiation.</div>
 :::
 
 ## Problem
@@ -18,9 +18,10 @@ I designed and managed production-scale reactive multi-material simulation campa
 
 ## Scale and Constraints
 
-- **Grid:** 140M cells
+- **Grid:** 150M cells
 - **Concurrency:** 7,000 CPU cores
-- **Compute:** ~2.8M CPU-hours per representative campaign
+- **Compute:** ~3M CPU-hours per representative campaign
+- **Grid resolution:** 15 nm on mesoscale sub-samples (50 &times; 70 &mu;m, 1&ndash;2 energetic crystals), with subsequent campaigns at 10 nm
 - **Why this scale:** hotspot statistics approached a grid-converged threshold only when sub-micron microstructural features were explicitly resolved &mdash; under that, the answers move with grid, not with physics.
 
 ## Validation
@@ -29,6 +30,6 @@ Campaigns were tied to experiments and collaborator observations from UIUC (Dlot
 
 ## Outcome
 
-- **Publications:** *Hot Spot Ignition and Growth&hellip;*, **Journal of Applied Physics** 131(20), 2022; *High-Fidelity Simulations of Shock Initiation&hellip;*, **Shock Waves** (in production, 2025).
+- **Publications:** *Hot Spot Ignition and Growth&hellip;*, **Journal of Applied Physics** 131(20), 2022; *High-Fidelity Simulations of Shock Initiation&hellip;*, **Shock Waves** 36(2), 2026 ([doi:10.1007/s00193-025-01260-2](https://doi.org/10.1007/s00193-025-01260-2)).
 - **Datasets:** ground-truth DNS databases now reused for physics-aware ML benchmarking (PARC / D-PARC).
 - **Programs:** simulation contributions to **AFOSR-MURI** *Microstructurally-Aware Continuum Models for Energetic Materials* (7-institution consortium, 2019&ndash;2024) and **ONR-MURI** *Non-Equilibrium Energy Propagation/Transfer in Condensed-Phase Exothermic Reactions* (2025&ndash;present).

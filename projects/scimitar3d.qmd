@@ -30,10 +30,10 @@ Simulation predictions were validated against experimental observations from col
 
 - **Engineering win:** the WENO + Riemann-based ghost-fluid integration eliminates the roughly 2.5&ndash;3&times; grid-refinement overhead otherwise required for equivalent accuracy at lower order &mdash; a direct cost reduction for every downstream campaign.
 - **Capability:** SCIMITAR3D is now the simulation backbone for multiple PhD and postdoctoral threads, including the HEDS dataset pipeline and current physics-aware deep learning benchmarks.
-- **Publications:** two **Shock Waves** journal papers accepted/in production (2025) on high-order multi-material methods and on shock initiation of an HMX crystal&ndash;binder system.
+- **Publications:** two **Shock Waves** journal papers &mdash; one on shock initiation of an HMX crystal&ndash;binder system (published 2026); one on high-order multi-material methods (accepted, in production, 2026).
 
 ## Links
 
-- Okafor, Seshadri, **Roy**, Udaykumar &mdash; *High-Order Eulerian Sharp Interface Numerical Techniques&hellip;*, **Shock Waves**, 2025.
-- **Roy**, Seshadri, Okafor, Johnson, Udaykumar &mdash; *High-Fidelity Simulations of Shock Initiation of an Energetic Crystal&ndash;Binder System Due to Flyer Impact*, **Shock Waves**, 2025.
+- Okafor, Seshadri, **Roy**, Udaykumar &mdash; *High-Order Eulerian Sharp Interface Numerical Techniques&hellip;*, **Shock Waves** (in production, 2026).
+- **Roy**, Seshadri, Okafor, Johnson, Udaykumar &mdash; *High-Fidelity Simulations of Shock Initiation of an Energetic Crystal&ndash;Binder System Due to Flyer Impact*, **Shock Waves** 36(2), 2026 ([doi:10.1007/s00193-025-01260-2](https://doi.org/10.1007/s00193-025-01260-2)).
 - Talk: *SCIMITAR3D-V2.0*, APS SCCM 2025.

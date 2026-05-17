@@ -3,7 +3,7 @@ title: "Contact"
 description: "Contact links for Shobhan Roy."
 ---
 
-For research, collaboration, or role-fit conversations, the fastest path is email.
+I'm open to conversations on research collaborations, technical consulting, and role-fit discussions &mdash; with industry research-scientist and applied-scientist roles currently a primary focus, and national-lab positions also in scope. The fastest path is email.
 
 ::: {.grid}
 ::: {.card}
