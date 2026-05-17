@@ -11,13 +11,17 @@ Each case study follows the practical arc a technical reader usually wants: prob
 
 Sharp-interface, multi-material reactive-flow framework. WENO + ghost-fluid integration cuts the grid-refinement overhead for equivalent accuracy by roughly 2.5&ndash;3&times;.
 
+*Numerical methods &middot; Multi-material solver*
+
 [Open project](scimitar3d.qmd)
 :::
 
 ::: {.card}
 ### Production HPC campaigns
 
-Microstructure-resolved mesoscale simulations on DoD HPC systems &mdash; 140M cells, 7,000 cores, ~2.8M CPU-hours per campaign &mdash; sized so hotspot statistics actually converge.
+Microstructure-resolved mesoscale simulations on DoD HPC systems &mdash; 150M cells, 7,000 cores, ~3M CPU-hours per campaign &mdash; sized so hotspot statistics actually converge.
+
+*Production simulation &middot; Shock-to-detonation*
 
 [Open project](hpc-dns-campaigns.qmd)
 :::
@@ -27,6 +31,8 @@ Microstructure-resolved mesoscale simulations on DoD HPC systems &mdash; 140M ce
 
 Diffusion / U-Net / CycleGAN microstructure generation paired with high-fidelity simulation to study damage&ndash;sensitivity behavior under shock loading.
 
+*Generative ML &middot; Mechanics surrogate*
+
 [Open project](heds.qmd)
 :::
 
@@ -34,6 +40,8 @@ Diffusion / U-Net / CycleGAN microstructure generation paired with high-fidelity
 ### Physics-aware ML benchmarks
 
 DNS ground truth and physics-consistent evaluation for PARC and D-PARC neural surrogates of shocked energetic-material response.
+
+*Neural operators &middot; DNS benchmarks*
 
 [Open project](physics-aware-ml.qmd)
 :::

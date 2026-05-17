@@ -15,8 +15,8 @@ image: assets/og-card.png
     "@type": "Organization",
     "name": "IIHR - Hydroscience & Engineering, University of Iowa"
   },
-  "url": "https://ShoRoy.github.io",
-  "image": "https://ShoRoy.github.io/assets/headshot.jpg",
+  "url": "https://www.shobhanroy.com",
+  "image": "https://www.shobhanroy.com/assets/headshot.jpg",
   "sameAs": [
     "https://scholar.google.com/citations?user=bvv9o2cAAAAJ&hl=en",
     "https://orcid.org/0000-0002-9361-5367",
@@ -94,7 +94,7 @@ Sharp-interface, multi-material reactive-flow framework. WENO + ghost-fluid inte
 ::: {.card}
 ### Production HPC campaigns
 
-Microstructure-resolved mesoscale simulations on DoD HPC systems &mdash; 140M cells, 7,000 cores, ~2.8M CPU-hours per campaign.
+Microstructure-resolved mesoscale simulations on DoD HPC systems &mdash; 150M cells, 7,000 cores, ~3M CPU-hours per campaign.
 
 [Read case study](projects/hpc-dns-campaigns.qmd)
 :::
@@ -118,30 +118,8 @@ DNS ground truth and physics-consistent evaluation for PARC and D-PARC neural su
 
 ## Selected Publications
 
+- Beerman, J.T., **Roy, S.**, Udaykumar, H.S., Baek, S.S. - *Size is Not the Solution: Deformable Convolutions for Effective Physics-Aware Deep Learning*, arXiv preprint (2026).
+- **Roy, S.**, Seshadri, P.K., Okafor, C., Johnson, B.P., & Udaykumar, H.S. - *High-Fidelity Simulations of Shock Initiation of an Energetic Crystal-Binder System Due to Flyer Impact*, **Shock Waves** 36(2), 2026. [doi:10.1007/s00193-025-01260-2](https://doi.org/10.1007/s00193-025-01260-2)
 - Fang, I., **Roy, S.**, Nguyen, P.C.H., Baek, S.S., Udaykumar, H.S. - *Heterogeneous Energetic Material Damage Simulator (HEDS): A Deep Learning Approach to Simulate Damage-Sensitivity Linkages*, **APL Machine Learning** 3(2), 2025.
-- **Roy, S.**, Johnson, B.P., Zhou, X., Nguyen, Y.T.H., Dlott, D.D., & Udaykumar, H.S. - *Hot Spot Ignition and Growth from Tandem Micro-Scale Simulations and Experiments on Plastic-Bonded Explosives*, **Journal of Applied Physics** 131(20), 2022.
-- **Roy, S.**, Gopalapillai, R. - *An Analytical Model for Asymmetric Mach Reflection Configuration in Steady Flows*, **Journal of Fluid Mechanics** 863, 242-268, 2019.
 
 [See full publication list](publications.qmd)
-
-## Technical Capabilities
-
-::: {.grid}
-::: {.card}
-### Numerical methods
-
-High-order finite-volume methods, WENO-type reconstruction, level-set and ghost-fluid methods, operator splitting, and reactive multi-material coupling.
-:::
-
-::: {.card}
-### Scientific computing
-
-MPI-based production simulation, domain decomposition, Slurm/PBS workflows, parallel I/O, validation against experiments, and reproducible post-processing.
-:::
-
-::: {.card}
-### Physics-aware ML
-
-Simulation datasets, model evaluation protocols, microstructure generation interfaces, neural-operator/PARC-family benchmarking, and conservation-aware interpretation.
-:::
-:::
