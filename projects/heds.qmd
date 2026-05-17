@@ -26,9 +26,9 @@ Validation asked whether generated microstructures preserved physically meaningf
 
 ## Outcome
 
-- **Publication:** *Heterogeneous Energetic Material Damage Simulator (HEDS)* in **APL Machine Learning** 3(2), 2025.
+- **Publication:** *Heterogeneous Energetic Material Damage Simulator (HEDS)* in **APL Machine Learning** 3(2), 2025 ([doi:10.1063/5.0257683](https://doi.org/10.1063/5.0257683)).
 - **Topical context:** HEDS sits in a broader thread of physics-aware ML for energetic materials at Iowa and partner institutions, alongside parallel work on the PARC and D-PARC architectures (separate UVA collaboration).
 
 ## Links
 
-- Fang, **Roy**, Nguyen, Baek, Udaykumar &mdash; *Heterogeneous Energetic Material Damage Simulator (HEDS)*, **APL Machine Learning** 3(2), 2025.
+- Fang, **Roy**, Nguyen, Baek, Udaykumar &mdash; *Heterogeneous Energetic Material Damage Simulator (HEDS)*, **APL Machine Learning** 3(2), 2025. [doi:10.1063/5.0257683](https://doi.org/10.1063/5.0257683)
