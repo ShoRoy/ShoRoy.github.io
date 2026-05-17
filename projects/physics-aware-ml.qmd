@@ -29,10 +29,10 @@ Models are scored against held-out DNS using physics-aware metrics: conservation
 
 ## Outcome
 
-- **Preprint:** Beerman, **Roy**, Udaykumar, Baek &mdash; *Size is Not the Solution: Deformable Convolutions for Effective Physics-Aware Deep Learning*, arXiv (2026).
+- **Preprint:** Beerman, **Roy**, Udaykumar, Baek &mdash; *Size is Not the Solution: Deformable Convolutions for Effective Physics-Aware Deep Learning*, arXiv preprint, 2026 ([arXiv:2601.11657](https://arxiv.org/abs/2601.11657)).
 - **Teaching:** TA (University of Iowa side) for the *Physics-Aware Deep Learning &mdash; PINNs, neural operators, PARC, reduced-order models* course offered jointly with the UVA School of Data Science (Spring 2026).
 
 ## Links
 
-- Beerman, **Roy**, Udaykumar, Baek &mdash; *Size is Not the Solution&hellip;*, arXiv, 2026.
+- Beerman, **Roy**, Udaykumar, Baek &mdash; *Size is Not the Solution&hellip;*, [arXiv:2601.11657](https://arxiv.org/abs/2601.11657), 2026.
 - Related dataset / pipeline: see the [HEDS framework](heds.qmd) and [HPC campaigns](hpc-dns-campaigns.qmd) projects.

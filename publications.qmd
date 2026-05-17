@@ -11,24 +11,24 @@ description: "Peer-reviewed journals, proceedings, preprints, and selected prese
 
 ## Preprint
 
-1. Beerman, J.T., **Roy, S.**, Udaykumar, H.S., Baek, S.S. - *Size is Not the Solution: Deformable Convolutions for Effective Physics-Aware Deep Learning*, arXiv (2026).
+1. Beerman, J.T., **Roy, S.**, Udaykumar, H.S., Baek, S.S. - *Size is Not the Solution: Deformable Convolutions for Effective Physics-Aware Deep Learning*, arXiv preprint, 2026. [arXiv:2601.11657](https://arxiv.org/abs/2601.11657)
 
 ## Peer-Reviewed Journals
 
 1. Okafor, C., Seshadri, P.K., **Roy, S.**, & Udaykumar, H.S. - *High-Order Eulerian Sharp Interface Numerical Techniques for Computing Multi-Material Interaction Problems with an Arbitrary Number of Materials*, **Shock Waves** (accepted, in production, 2026).
 2. **Roy, S.**, Seshadri, P.K., Okafor, C., Johnson, B.P., & Udaykumar, H.S. - *High-Fidelity Simulations of Shock Initiation of an Energetic Crystal-Binder System Due to Flyer Impact*, **Shock Waves** 36(2), 2026. [doi:10.1007/s00193-025-01260-2](https://doi.org/10.1007/s00193-025-01260-2)
-3. Fang, I., **Roy, S.**, Nguyen, P.C.H., Baek, S.S., Udaykumar, H.S. - *Heterogeneous Energetic Material Damage Simulator (HEDS): A Deep Learning Approach to Simulate Damage-Sensitivity Linkages*, **APL Machine Learning** 3(2), 2025.
-4. **Roy, S.**, Johnson, B.P., Zhou, X., Nguyen, Y.T.H., Dlott, D.D., & Udaykumar, H.S. - *Hot Spot Ignition and Growth from Tandem Micro-Scale Simulations and Experiments on Plastic-Bonded Explosives*, **Journal of Applied Physics** 131(20), 2022.
-5. **Roy, S.**, Sandhu, J.P.S., Ghosh, S. - *Drag Reduction in Transonic Shock-Wave/Boundary-Layer Interaction Using Porous Medium: A Computational Study*, **Shock Waves** 31(2), 117-132, 2021.
-6. **Roy, S.**, Subramaniam, K., Ghosh, S. - *Positioning of Normal Shock in a Novel Constant-Area Test Section: A Numerical Study*, **AIAA Journal** 57(12), 5582-5587, 2019.
-7. **Roy, S.**, Gopalapillai, R. - *An Analytical Model for Asymmetric Mach Reflection Configuration in Steady Flows*, **Journal of Fluid Mechanics** 863, 242-268, 2019.
+3. Fang, I., **Roy, S.**, Nguyen, P.C.H., Baek, S.S., Udaykumar, H.S. - *Heterogeneous Energetic Material Damage Simulator (HEDS): A Deep Learning Approach to Simulate Damage-Sensitivity Linkages*, **APL Machine Learning** 3(2), 2025. [doi:10.1063/5.0257683](https://doi.org/10.1063/5.0257683)
+4. **Roy, S.**, Johnson, B.P., Zhou, X., Nguyen, Y.T.H., Dlott, D.D., & Udaykumar, H.S. - *Hot Spot Ignition and Growth from Tandem Micro-Scale Simulations and Experiments on Plastic-Bonded Explosives*, **Journal of Applied Physics** 131(20), 2022. [doi:10.1063/5.0085356](https://doi.org/10.1063/5.0085356)
+5. **Roy, S.**, Sandhu, J.P.S., Ghosh, S. - *Drag Reduction in Transonic Shock-Wave/Boundary-Layer Interaction Using Porous Medium: A Computational Study*, **Shock Waves** 31(2), 117-132, 2021. [doi:10.1007/s00193-021-01009-7](https://doi.org/10.1007/s00193-021-01009-7)
+6. **Roy, S.**, Subramaniam, K., Ghosh, S. - *Positioning of Normal Shock in a Novel Constant-Area Test Section: A Numerical Study*, **AIAA Journal** 57(12), 5582-5587, 2019. [doi:10.2514/1.J057834](https://doi.org/10.2514/1.J057834)
+7. **Roy, S.**, Gopalapillai, R. - *An Analytical Model for Asymmetric Mach Reflection Configuration in Steady Flows*, **Journal of Fluid Mechanics** 863, 242-268, 2019. [doi:10.1017/jfm.2018.945](https://doi.org/10.1017/jfm.2018.945)
 
 ## Conference Proceedings
 
-8. **Roy, S.**, Rajesh, G. - *Analytical Prediction of Mach Stem Height for Asymmetric Wedge Reflection in 2-D Steady Flows*, **31st International Symposium on Shock Waves 1**, Springer, Cham, 2019.
-9. Sahoo, A., **Roy, S.**, Ghosh, S. - *Numerical Investigation of Transonic Flow over Porous Medium Using Immersed Boundary Method*, **2018 Applied Aerodynamics Conference**, AIAA 2018-3339, 2018.
-10. **Roy, S.**, Subramaniam, K., Ghosh, S. - *Passive control of normal-shock-wave/boundary-layer interaction using porous medium: computational study*, **35th AIAA Applied Aerodynamics Conference**, AIAA 2017-3912, 2017.
-11. Sahoo, A., Ghosh, S., & **Roy, S.** - *Transonic flow past a porous medium: effect of porosity*, **AIAA Aviation 2019 Forum**, AIAA 2019-3076, 2019.
+8. **Roy, S.**, Rajesh, G. - *Analytical Prediction of Mach Stem Height for Asymmetric Wedge Reflection in 2-D Steady Flows*, **31st International Symposium on Shock Waves 1**, Springer, Cham, 2019. [doi:10.1007/978-3-319-91020-8_102](https://doi.org/10.1007/978-3-319-91020-8_102)
+9. Sahoo, A., **Roy, S.**, Ghosh, S. - *Numerical Investigation of Transonic Flow over Porous Medium Using Immersed Boundary Method*, **2018 Applied Aerodynamics Conference**, AIAA 2018-3339, 2018. [doi:10.2514/6.2018-3339](https://doi.org/10.2514/6.2018-3339)
+10. **Roy, S.**, Subramaniam, K., Ghosh, S. - *Passive control of normal-shock-wave/boundary-layer interaction using porous medium: computational study*, **35th AIAA Applied Aerodynamics Conference**, AIAA 2017-3912, 2017. [doi:10.2514/6.2017-3912](https://doi.org/10.2514/6.2017-3912)
+11. Sahoo, A., Ghosh, S., & **Roy, S.** - *Transonic flow past a porous medium: effect of porosity*, **AIAA Aviation 2019 Forum**, AIAA 2019-3076, 2019. [doi:10.2514/6.2019-3076](https://doi.org/10.2514/6.2019-3076)
 
 ## Selected Presentations
 

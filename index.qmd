@@ -118,8 +118,8 @@ DNS ground truth and physics-consistent evaluation for PARC and D-PARC neural su
 
 ## Selected Publications
 
-- Beerman, J.T., **Roy, S.**, Udaykumar, H.S., Baek, S.S. - *Size is Not the Solution: Deformable Convolutions for Effective Physics-Aware Deep Learning*, arXiv preprint (2026).
+- Beerman, J.T., **Roy, S.**, Udaykumar, H.S., Baek, S.S. - *Size is Not the Solution: Deformable Convolutions for Effective Physics-Aware Deep Learning*, arXiv preprint, 2026. [arXiv:2601.11657](https://arxiv.org/abs/2601.11657)
 - **Roy, S.**, Seshadri, P.K., Okafor, C., Johnson, B.P., & Udaykumar, H.S. - *High-Fidelity Simulations of Shock Initiation of an Energetic Crystal-Binder System Due to Flyer Impact*, **Shock Waves** 36(2), 2026. [doi:10.1007/s00193-025-01260-2](https://doi.org/10.1007/s00193-025-01260-2)
-- Fang, I., **Roy, S.**, Nguyen, P.C.H., Baek, S.S., Udaykumar, H.S. - *Heterogeneous Energetic Material Damage Simulator (HEDS): A Deep Learning Approach to Simulate Damage-Sensitivity Linkages*, **APL Machine Learning** 3(2), 2025.
+- Fang, I., **Roy, S.**, Nguyen, P.C.H., Baek, S.S., Udaykumar, H.S. - *Heterogeneous Energetic Material Damage Simulator (HEDS): A Deep Learning Approach to Simulate Damage-Sensitivity Linkages*, **APL Machine Learning** 3(2), 2025. [doi:10.1063/5.0257683](https://doi.org/10.1063/5.0257683)
 
 [See full publication list](publications.qmd)

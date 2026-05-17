@@ -33,3 +33,8 @@ Campaigns were tied to experiments and collaborator observations from UIUC (Dlot
 - **Publications:** *Hot Spot Ignition and Growth&hellip;*, **Journal of Applied Physics** 131(20), 2022; *High-Fidelity Simulations of Shock Initiation&hellip;*, **Shock Waves** 36(2), 2026 ([doi:10.1007/s00193-025-01260-2](https://doi.org/10.1007/s00193-025-01260-2)).
 - **Datasets:** ground-truth DNS databases now reused for physics-aware ML benchmarking (PARC / D-PARC).
 - **Programs:** simulation contributions to **AFOSR-MURI** *Microstructurally-Aware Continuum Models for Energetic Materials* (7-institution consortium, 2019&ndash;2024) and **ONR-MURI** *Non-Equilibrium Energy Propagation/Transfer in Condensed-Phase Exothermic Reactions* (2025&ndash;present).
+
+## Links
+
+- **Roy**, Seshadri, Okafor, Johnson, Udaykumar &mdash; *High-Fidelity Simulations of Shock Initiation of an Energetic Crystal&ndash;Binder System Due to Flyer Impact*, **Shock Waves** 36(2), 2026. [doi:10.1007/s00193-025-01260-2](https://doi.org/10.1007/s00193-025-01260-2)
+- **Roy**, Johnson, Zhou, Nguyen, Dlott, Udaykumar &mdash; *Hot Spot Ignition and Growth from Tandem Micro-Scale Simulations and Experiments on Plastic-Bonded Explosives*, **Journal of Applied Physics** 131(20), 2022. [doi:10.1063/5.0085356](https://doi.org/10.1063/5.0085356)
