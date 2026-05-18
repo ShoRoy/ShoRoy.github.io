@@ -9,3 +9,7 @@ Thumbs.db
 # The downloadable resume is tracked explicitly.
 assets/*.pdf
 !assets/Shobhan_Roy_Resume.pdf
+
+# Source-format media (only the web-encoded variants are shipped)
+assets/*.avi
+assets/*.svg

@@ -125,10 +125,25 @@ a {
 }
 
 .feature img,
-.wide-media img {
+.wide-media img,
+.wide-media video {
   border-radius: 6px;
   width: 100%;
   border: 1px solid var(--line);
+  display: block;
+}
+
+/* Side-by-side static + video pairing (collapses to stacked on mobile). */
+.figure-pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+  margin: 2rem 0;
+  align-items: start;
+}
+
+.figure-pair .wide-media {
+  margin: 0;
 }
 
 .caption {
@@ -189,7 +204,8 @@ h2 {
   .feature,
   .two-col,
   .grid,
-  .focus-strip {
+  .focus-strip,
+  .figure-pair {
     grid-template-columns: 1fr;
   }
 

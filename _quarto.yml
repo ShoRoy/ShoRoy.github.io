@@ -9,11 +9,11 @@ project:
     - "assets/og-card.png"
     - "assets/favicon.png"
     - "assets/favicon-32.png"
-    - "assets/frame-impact.png"
     - "assets/dparc-hotspot-emulation.png"
-    - "assets/roy-fig9-temperature-vm-strain.png"
     - "assets/heds-microstructure-ensemble.png"
     - "assets/heds-shock-temperature.png"
+    - "assets/Highres_crystal.jpg"
+    - "assets/DNS_PBX.mp4"
     - "assets/shock-pore-collapse.mp4"
 
 website:
