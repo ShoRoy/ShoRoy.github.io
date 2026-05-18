@@ -8,6 +8,8 @@ summary: "A deep learning and computational mechanics framework for damage-sensi
 <div class="caption">Mid-simulation snapshot used in HEDS-style evaluation: pore collapse and damage signatures in a shocked HMX crystal-binder microstructure.</div>
 :::
 
+**Role:** Simulation and physics-validation lead. ML architecture and training led by collaborators (Fang, Nguyen, Baek).
+
 ## Problem
 
 Energetic-material sensitivity is controlled by how microstructure concentrates energy under shock loading: where pores collapse, how damage accumulates, whether a hotspot grows or decays. The practical question for a hiring lens: given a synthetic or imaged microstructure, can we predict whether it is more or less likely to ignite under shock &mdash; with physics constraints baked in rather than learned by accident?
