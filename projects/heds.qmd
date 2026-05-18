@@ -34,3 +34,4 @@ Validation asked whether generated microstructures preserved physically meaningf
 ## Links
 
 - Fang, **Roy**, Nguyen, Baek, Udaykumar &mdash; *Heterogeneous Energetic Material Damage Simulator (HEDS)*, **APL Machine Learning** 3(2), 2025. [doi:10.1063/5.0257683](https://doi.org/10.1063/5.0257683)
+- Code: [github.com/ifang0/HEDS](https://github.com/ifang0/HEDS) (collaborator repo, I. Fang et al.).

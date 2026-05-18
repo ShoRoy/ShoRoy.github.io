@@ -39,3 +39,4 @@ Simulation predictions were validated against experimental observations from col
 - Okafor, Seshadri, **Roy**, Udaykumar &mdash; *High-Order Eulerian Sharp Interface Numerical Techniques&hellip;*, **Shock Waves** (in production, 2026).
 - **Roy**, Seshadri, Okafor, Johnson, Udaykumar &mdash; *High-Fidelity Simulations of Shock Initiation of an Energetic Crystal&ndash;Binder System Due to Flyer Impact*, **Shock Waves** 36(2), 2026 ([doi:10.1007/s00193-025-01260-2](https://doi.org/10.1007/s00193-025-01260-2)).
 - Talk: *SCIMITAR3D-V2.0*, APS SCCM 2025.
+- *Code: SCIMITAR3D is group-internal (Udaykumar lab, University of Iowa); access by inquiry.*

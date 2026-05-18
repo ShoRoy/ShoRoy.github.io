@@ -3,6 +3,11 @@ title: "Physics-Aware ML: D-PARC Co-Architecture and DNS Benchmarks"
 summary: "Co-architecting D-PARC physics-aware neural operators and curating DNS ground truth for physics-consistent evaluation of PARC-family surrogates."
 ---
 
+::: {.wide-media}
+![](../assets/dparc-hotspot-emulation.png){fig-alt="Temporal evolution of temperature during shock-induced pore collapse in an energetic material. Rows compare ground truth (GT) against D-PARC, PARCv2, and PARCv2-L surrogate predictions across four timesteps (0.17, 0.68, 1.36, 2.04 ns)."}
+<div class="caption">Figure 7 from Beerman, **Roy**, et al. (2026): temporal evolution of the temperature field during shock-induced pore collapse in an energetic material. D-PARC tracks both hotspot morphology and peak intensity from ground-truth DNS, while PARCv2-L underresolves peak temperatures despite using 12.6&times; more parameters than D-PARC.</div>
+:::
+
 **Role:** Co-architected D-PARC (Beerman, **Roy**, Udaykumar, Baek, 2026); simulation-side lead for the UVA (Baek group) collaboration on DNS curation and physics-consistency benchmarks.
 
 ## Problem
@@ -37,4 +42,5 @@ Models are scored against held-out DNS using physics-aware metrics: conservation
 ## Links
 
 - Beerman, **Roy**, Udaykumar, Baek &mdash; *Size is Not the Solution&hellip;*, [arXiv:2601.11657](https://arxiv.org/abs/2601.11657), 2026.
+- Code: [github.com/baeklab/PARCtorch](https://github.com/baeklab/PARCtorch) (Baek lab; PARC family and D-PARC implementations).
 - Related dataset / pipeline: see the [HEDS framework](heds.qmd) and [HPC campaigns](hpc-dns-campaigns.qmd) projects.
