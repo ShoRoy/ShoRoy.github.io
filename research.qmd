@@ -16,6 +16,13 @@ My work sits at the interface of computational physics, high-performance simulat
 
 I'm leading the design of an **agentic microstructure-to-prediction sub-pipeline** &mdash; part of a closed-loop materials-discovery framework co-designed with my PI &mdash; that routes real (SEM, &micro;-CT) and ML-generated micrographs through either physics-based predictors (SCIMITAR3D) or neural surrogates (PARC-family). The architecture-level decisions center on where to inject agentic AI in the workflow, how to manage data and provenance across simulation and experimental stores, and how to interface heterogeneous compute and storage. The broader framework integrates generative inverse design with Bayesian active-learning acquisition and UQ-gated escalation to high-fidelity HPC; the immediate focus is the routing layer and the staging of physics-consistency checks for downstream model training.
 
+## Numerical and constitutive extensions
+
+Alongside the orchestration work, I'm extending the underlying multi-material solver itself. Two active threads:
+
+- **Phase-change interfaces.** Novel interfacial treatments for materials transitioning from solid-with-strength to gaseous (hydrodynamic) flow during chemical decomposition &mdash; extending the sharp-interface multi-material framework to handle chemically decomposing systems across the strength-loss boundary.
+- **Equations of state for non-planar shock-to-detonation.** Augmenting JWL and Mie-Gr&uuml;neisen equations of state to span the full tensile-to-high-compression pressure range required for macroscale shock-to-detonation simulations in 2D / 3D geometries, where pre-existing EOS forms break down outside their calibrated regimes.
+
 ## Open Questions
 
 The questions below shape what I build, run, and benchmark. They are the reason the pipeline above exists in that order.
