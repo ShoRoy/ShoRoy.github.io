@@ -5,17 +5,17 @@ summary: "Sharp-interface, multi-material reactive-flow simulation for heterogen
 
 ::: {.figure-pair}
 ::: {.wide-media}
-![](../assets/Highres_crystal.jpg){fig-alt="Three-panel SCIMITAR3D snapshot at 7.5 ns of a flyer-impact shock initiation simulation. Left: Schlieren visualization showing the explicit Al flyer, Estane binder, and HMX crystal geometry with a 10 micrometre scale bar. Right top: von Mises strain showing shear bands and a collapsing pore. Right bottom: temperature contours showing hotspot growth at the same time."}
-<div class="caption">SCIMITAR3D snapshot at t = 7.5 ns of a flyer-impact shock initiation on a single HMX crystal in Estane binder. The Schlieren panel (left) shows the full Al-flyer / binder / HMX-crystal geometry with a 10 &micro;m scale bar; the right-column panels are analytical zooms of the red-boxed region &mdash; vM strain (top) revealing shear-band networks and a collapsing pore, and temperature (bottom) showing hotspot growth localized at the collapsing pore.</div>
-:::
-
-::: {.wide-media}
 ```{=html}
 <video autoplay loop muted playsinline aria-label="Time evolution of the SCIMITAR3D temperature field for the same single-HMX-crystal flyer-impact shock initiation. The flyer strikes from the top, the crystal compresses and shears, a pore collapses, shear bands fan out from the collapse site, and hotspots emerge and grow as the simulation advances.">
   <source src="../assets/shock-pore-collapse.mp4" type="video/mp4">
 </video>
 <div class="caption">Time evolution of the same simulation. Temperature field through flyer impact, pore collapse, shear-band formation, and hotspot growth &mdash; the dynamics that the static snapshot captures only at the single t = 7.5 ns instant.</div>
 ```
+:::
+
+::: {.wide-media}
+![](../assets/Highres_crystal.jpg){fig-alt="Three-panel SCIMITAR3D snapshot at 7.5 ns of a flyer-impact shock initiation simulation. Left: Schlieren visualization showing the explicit Al flyer, Estane binder, and HMX crystal geometry with a 10 micrometre scale bar. Right top: von Mises strain showing shear bands and a collapsing pore. Right bottom: temperature contours showing hotspot growth at the same time."}
+<div class="caption">SCIMITAR3D snapshot at t = 7.5 ns of a flyer-impact shock initiation on a single HMX crystal in Estane binder. The Schlieren panel (left) shows the full Al-flyer / binder / HMX-crystal geometry with a 10 &micro;m scale bar; the right-column panels are analytical zooms of the red-boxed region &mdash; vM strain (top) revealing shear-band networks and a collapsing pore, and temperature (bottom) showing hotspot growth localized at the collapsing pore.</div>
 :::
 :::
 

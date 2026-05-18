@@ -13,3 +13,4 @@ assets/*.pdf
 # Source-format media (only the web-encoded variants are shipped)
 assets/*.avi
 assets/*.svg
+assets/Highres_crystal.png

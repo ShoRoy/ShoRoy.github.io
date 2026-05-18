@@ -133,17 +133,24 @@ a {
   display: block;
 }
 
-/* Side-by-side static + video pairing (collapses to stacked on mobile). */
+/* Side-by-side video + static pairing (collapses to stacked on mobile).
+ * Use minmax(0, ...) so grid tracks can shrink below image/video
+ * intrinsic widths - matches the .feature/.hero pattern above.
+ * 1fr / 1.5fr gives the static (right column) the wider track so it
+ * reads as the highlight; the ratio also lands the two rendered
+ * heights within a few percent of each other given the assets'
+ * natural aspect ratios. */
 .figure-pair {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.5fr);
   gap: 1.25rem;
   margin: 2rem 0;
   align-items: start;
 }
 
-.figure-pair .wide-media {
+.figure-pair > .wide-media {
   margin: 0;
+  min-width: 0;
 }
 
 .caption {
