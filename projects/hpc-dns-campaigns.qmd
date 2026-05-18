@@ -4,8 +4,12 @@ summary: "Microstructure-resolved reactive simulations on DoD HPC systems, sized
 ---
 
 ::: {.wide-media}
-![](../assets/frame-impact.png){fig-alt="Snapshot from a production-scale SCIMITAR3D run: shock interaction with an HMX crystal-binder configuration on a microstructure-resolved grid."}
-<div class="caption">Snapshot from a 150M-cell production campaign on DoD HPC: shock front interacting with a microstructure-resolved HMX-binder configuration during early initiation.</div>
+```{=html}
+<video autoplay loop muted playsinline style="max-width: 100%; max-height: 75vh; height: auto; display: block; margin: 0 auto;" aria-label="Time evolution of a production-scale SCIMITAR3D shock-to-detonation simulation: the shock wave propagates through a multi-crystal HMX-binder microstructure with reacted regions emerging at hotspots and growing as the burn-front advances.">
+  <source src="../assets/DNS_PBX.mp4" type="video/mp4">
+</video>
+<div class="caption">Time evolution of a production-scale SCIMITAR3D shock-to-detonation simulation on a multi-crystal HMX-Estane microstructure (20 &micro;m scale bar). The flyer-driven shock enters from the top; reacted regions (red) emerge at hotspots and grow as the burn front propagates downward through the heterogeneous domain.</div>
+```
 :::
 
 **Role:** Sole simulation lead (PhD and postdoc); validation in partnership with UIUC (Dlott group) and Los Alamos National Laboratory.

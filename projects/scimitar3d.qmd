@@ -3,9 +3,20 @@ title: "SCIMITAR3D Solver Development"
 summary: "Sharp-interface, multi-material reactive-flow simulation for heterogeneous energetic materials."
 ---
 
+::: {.figure-pair}
 ::: {.wide-media}
-![](../assets/roy-fig9-temperature-vm-strain.png){fig-alt="SCIMITAR3D simulation of an HMX crystal in binder under flyer-impact shock, at 5.6 ns and 7.2 ns. Left column: temperature contours showing the explicit Al flyer and crystal-binder interface. Right column: zoomed-in von Mises strain showing localization at sub-grain scale."}
-<div class="caption">SCIMITAR3D simulation of flyer-impact shock initiation on an HMX crystal in binder (Roy et al., [**Shock Waves** 36(2), 2026](https://doi.org/10.1007/s00193-025-01260-2), Fig. 9). Left column: temperature contours with the Al flyer and sharp crystal-binder interface explicitly tracked. Right column: zoomed-in von Mises strain showing localization at sub-grain scale. Rows compare 5.6 ns and 7.2 ns after impact.</div>
+![](../assets/Highres_crystal.jpg){fig-alt="Three-panel SCIMITAR3D snapshot at 7.5 ns of a flyer-impact shock initiation simulation. Left: Schlieren visualization showing the explicit Al flyer, Estane binder, and HMX crystal geometry with a 10 micrometre scale bar. Right top: von Mises strain showing shear bands and a collapsing pore. Right bottom: temperature contours showing hotspot growth at the same time."}
+<div class="caption">SCIMITAR3D snapshot at t = 7.5 ns of a flyer-impact shock initiation on a single HMX crystal in Estane binder. The Schlieren panel (left) shows the full Al-flyer / binder / HMX-crystal geometry with a 10 &micro;m scale bar; the right-column panels are analytical zooms of the red-boxed region &mdash; vM strain (top) revealing shear-band networks and a collapsing pore, and temperature (bottom) showing hotspot growth localized at the collapsing pore.</div>
+:::
+
+::: {.wide-media}
+```{=html}
+<video autoplay loop muted playsinline aria-label="Time evolution of the SCIMITAR3D temperature field for the same single-HMX-crystal flyer-impact shock initiation. The flyer strikes from the top, the crystal compresses and shears, a pore collapses, shear bands fan out from the collapse site, and hotspots emerge and grow as the simulation advances.">
+  <source src="../assets/shock-pore-collapse.mp4" type="video/mp4">
+</video>
+<div class="caption">Time evolution of the same simulation. Temperature field through flyer impact, pore collapse, shear-band formation, and hotspot growth &mdash; the dynamics that the static snapshot captures only at the single t = 7.5 ns instant.</div>
+```
+:::
 :::
 
 **Role:** Multi-material extension contributor &mdash; helped integrate fifth-order WENO reconstruction and Riemann-based ghost-fluid coupling; lead author on the validation paper (*High-Fidelity Simulations&hellip;*, **Shock Waves** 2026).
