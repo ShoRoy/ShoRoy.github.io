@@ -10,7 +10,7 @@ I am a computational physicist and scientific machine learning researcher specia
 My work spans solver development, microstructure-resolved DNS, HPC production campaigns, and simulation-grounded ML evaluation for energetic-material response under extreme loading.
 
 <div class="actions">
-  <a class="button primary" href="assets/Shobhan_Roy_Industry_Resume.pdf">Download Resume</a>
+  <a class="button primary" href="assets/Shobhan_Roy_Resume.pdf">Download Resume</a>
   <a class="button" href="publications.qmd">Publications</a>
 </div>
 :::
@@ -58,13 +58,13 @@ Advisors: Prof. Santanu Ghosh & Prof. G. Rajesh
 - **Excellent Presentation Award**, 7th International Symposium on Energetic Materials and Their Applications, Tokyo, Japan (2021)
 - **Dean's Graduate Fellowship**, College of Engineering, University of Iowa (2019)
 
-## Adjacent capabilities
+## Extended research toolkit
 
 ::: {.grid}
 ::: {.card}
-### Adjacent SciML stack
+### LLM-augmented research workflow
 
-Conversant with **PINNs**, **FNO**, **DeepONet**, differentiable simulation, active learning, and Bayesian optimization &mdash; built through architecture evaluation, collaboration with the UVA Baek group, and the joint PADL course.
+GitHub Copilot CLI and VS Code agent mode (Claude, GPT) for code review and scheme prototyping; repo-scoped agents, version-controlled prompts and session transcripts, reproducible markdown&rarr;DOCX pipelines.
 :::
 
 ::: {.card}
@@ -74,8 +74,8 @@ Model registry, provenance and lineage tracking, RAG over scientific data, multi
 :::
 
 ::: {.card}
-### LLM-augmented research workflow
+### Adjacent SciML stack
 
-GitHub Copilot CLI and VS Code agent mode (Claude, GPT) for code review and scheme prototyping; repo-scoped agents, version-controlled prompts and session transcripts, reproducible markdown&rarr;DOCX pipelines.
+Conversant with **PINNs**, **FNO**, **DeepONet**, differentiable simulation, active learning, and Bayesian optimization &mdash; built through architecture evaluation, collaboration with the UVA Baek group, and the joint PADL course.
 :::
 :::

@@ -5,7 +5,7 @@ project:
     - "*.qmd"
     - "projects/*.qmd"
   resources:
-    - "assets/Shobhan_Roy_Industry_Resume.pdf"
+    - "assets/Shobhan_Roy_Resume.pdf"
     - "assets/og-card.png"
     - "assets/favicon.png"
     - "assets/favicon-32.png"
@@ -41,10 +41,10 @@ website:
         href: https://www.linkedin.com/in/shobhan-roy
         aria-label: LinkedIn
       - text: "Resume (PDF)"
-        href: assets/Shobhan_Roy_Industry_Resume.pdf
+        href: assets/Shobhan_Roy_Resume.pdf
   page-footer:
     left: "Copyright 2026 Shobhan Roy"
-    right: "Built with Quarto &middot; Authored by Shobhan Roy with AI-assisted tooling (VS Code + Copilot agents)"
+    right: "Built with Quarto &middot; AI-assisted (Copilot + VS Code agents)"
   open-graph: true
   twitter-card: true
   search: false

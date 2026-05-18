@@ -38,7 +38,7 @@ projects/
 assets/
   headshot.jpg
   shock-pore-collapse.gif
-  Shobhan_Roy_Industry_Resume.pdf  # downloadable resume (replace as needed)
+  Shobhan_Roy_Resume.pdf  # downloadable resume (replace as needed)
 .github/workflows/
   publish.yml           # Quarto render -> GitHub Pages deploy
 ```
@@ -52,7 +52,7 @@ assets/
 
 ## Updating the resume download
 
-Replace `assets/Shobhan_Roy_Industry_Resume.pdf` with the latest export. Filename is referenced from `index.qmd`, `cv.qmd`, `publications.qmd`, and the navbar in `_quarto.yml` — keep the filename stable, or update those four references.
+Replace `assets/Shobhan_Roy_Resume.pdf` with the latest export. Filename is referenced from `index.qmd`, `cv.qmd`, `publications.qmd`, and the navbar in `_quarto.yml` — keep the filename stable, or update those four references.
 
 ## Deployment
 
