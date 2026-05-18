@@ -8,6 +8,8 @@ summary: "Microstructure-resolved reactive simulations on DoD HPC systems, sized
 <div class="caption">Snapshot from a 150M-cell production campaign on DoD HPC: shock front interacting with a microstructure-resolved HMX-binder configuration during early initiation.</div>
 :::
 
+**Role:** Sole simulation lead (PhD and postdoc); validation in partnership with UIUC (Dlott group) and Los Alamos National Laboratory.
+
 ## Problem
 
 Energetic-material initiation is governed by small, rare, localized events: pore collapse, shear localization, and hotspot growth at sub-grain scale. To compare simulations meaningfully with experiments and with learned surrogates, the computation must resolve those features rather than average them away.

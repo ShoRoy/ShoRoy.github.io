@@ -3,6 +3,8 @@ title: "Physics-Aware ML: D-PARC Co-Architecture and DNS Benchmarks"
 summary: "Co-architecting D-PARC physics-aware neural operators and curating DNS ground truth for physics-consistent evaluation of PARC-family surrogates."
 ---
 
+**Role:** Co-architected D-PARC (Beerman, **Roy**, Udaykumar, Baek, 2026); simulation-side lead for the UVA (Baek group) collaboration on DNS curation and physics-consistency benchmarks.
+
 ## Problem
 
 Neural surrogates for transient, shock-driven multi-physics problems are often evaluated on image-similarity metrics that ignore the governing PDEs. The result: models that look right and predict wrong &mdash; conservation, interface conditions, and entropy constraints quietly violated. For surrogates to be trustworthy *inside* materials and simulation pipelines, both the architecture and the evaluation have to be physics-consistent, not pixel-consistent.

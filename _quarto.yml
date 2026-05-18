@@ -12,6 +12,7 @@ project:
     - "assets/frame-impact.png"
     - "assets/frame-collapse.png"
     - "assets/frame-late.png"
+    - "assets/shock-pore-collapse.mp4"
 
 website:
   title: "Shobhan Roy"

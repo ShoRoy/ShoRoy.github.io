@@ -75,8 +75,12 @@ The site highlights four threads: SCIMITAR3D solver development, production HPC 
 :::
 
 ::: {}
-![](assets/shock-pore-collapse.gif){fig-alt="Simulated temperature contours showing shock interaction with an HMX crystal-binder microstructure, pore collapse, and shear-band formation."}
+```{=html}
+<video autoplay loop muted playsinline style="width: 100%; height: auto;" aria-label="Simulated temperature contours showing shock interaction with an HMX crystal-binder microstructure, pore collapse, and shear-band formation.">
+  <source src="assets/shock-pore-collapse.mp4" type="video/mp4">
+</video>
 <div class="caption">Simulation visual from PhD work: flyer-impact shock interaction with an HMX crystal in binder, pore collapse, and shear-band formation.</div>
+```
 :::
 :::
 
