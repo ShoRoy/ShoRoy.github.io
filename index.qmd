@@ -98,6 +98,14 @@ Sharp-interface, multi-material reactive-flow framework. WENO + ghost-fluid inte
 :::
 
 ::: {.card}
+### Physics-aware ML benchmarks
+
+DNS ground truth and physics-consistent evaluation for PARC and D-PARC neural surrogates of shocked energetic-material response.
+
+[Read case study](projects/physics-aware-ml.qmd)
+:::
+
+::: {.card}
 ### Production HPC campaigns
 
 Microstructure-resolved mesoscale simulations on DoD HPC systems &mdash; 150M cells, 7,000 cores, ~3M CPU-hours per campaign.
@@ -111,14 +119,6 @@ Microstructure-resolved mesoscale simulations on DoD HPC systems &mdash; 150M ce
 Diffusion / U-Net / CycleGAN microstructure generation paired with high-fidelity simulation to study damage&ndash;sensitivity behavior.
 
 [Read case study](projects/heds.qmd)
-:::
-
-::: {.card}
-### Physics-aware ML benchmarks
-
-DNS ground truth and physics-consistent evaluation for PARC and D-PARC neural surrogates of shocked energetic-material response.
-
-[Read case study](projects/physics-aware-ml.qmd)
 :::
 :::
 
