@@ -4,8 +4,8 @@ summary: "Sharp-interface, multi-material reactive-flow simulation for heterogen
 ---
 
 ::: {.wide-media}
-![](../assets/frame-late.png){fig-alt="High-resolution simulation snapshot showing temperature contours from a SCIMITAR3D run on an HMX crystal-binder microstructure: pore collapse, shear-band formation, and reactive front evolution."}
-<div class="caption">SCIMITAR3D simulation: temperature field during shock interaction with an HMX crystal-binder microstructure, showing pore collapse, shear localization, and reactive front evolution.</div>
+![](../assets/roy-fig9-temperature-vm-strain.png){fig-alt="SCIMITAR3D simulation of an HMX crystal in binder under flyer-impact shock, at 5.6 ns and 7.2 ns. Left column: temperature contours showing the explicit Al flyer and crystal-binder interface. Right column: zoomed-in von Mises strain showing localization at sub-grain scale."}
+<div class="caption">SCIMITAR3D simulation of flyer-impact shock initiation on an HMX crystal in binder (Roy et al., [**Shock Waves** 36(2), 2026](https://doi.org/10.1007/s00193-025-01260-2), Fig. 9). Left column: temperature contours with the Al flyer and sharp crystal-binder interface explicitly tracked. Right column: zoomed-in von Mises strain showing localization at sub-grain scale. Rows compare 5.6 ns and 7.2 ns after impact.</div>
 :::
 
 **Role:** Multi-material extension contributor &mdash; helped integrate fifth-order WENO reconstruction and Riemann-based ghost-fluid coupling; lead author on the validation paper (*High-Fidelity Simulations&hellip;*, **Shock Waves** 2026).

@@ -10,9 +10,10 @@ project:
     - "assets/favicon.png"
     - "assets/favicon-32.png"
     - "assets/frame-impact.png"
-    - "assets/frame-collapse.png"
-    - "assets/frame-late.png"
     - "assets/dparc-hotspot-emulation.png"
+    - "assets/roy-fig9-temperature-vm-strain.png"
+    - "assets/heds-microstructure-ensemble.png"
+    - "assets/heds-shock-temperature.png"
     - "assets/shock-pore-collapse.mp4"
 
 website:
