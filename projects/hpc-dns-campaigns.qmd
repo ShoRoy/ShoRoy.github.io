@@ -40,3 +40,4 @@ Campaigns were tied to experiments and collaborator observations from UIUC (Dlot
 
 - **Roy**, Seshadri, Okafor, Johnson, Udaykumar &mdash; *High-Fidelity Simulations of Shock Initiation of an Energetic Crystal&ndash;Binder System Due to Flyer Impact*, **Shock Waves** 36(2), 2026. [doi:10.1007/s00193-025-01260-2](https://doi.org/10.1007/s00193-025-01260-2)
 - **Roy**, Johnson, Zhou, Nguyen, Dlott, Udaykumar &mdash; *Hot Spot Ignition and Growth from Tandem Micro-Scale Simulations and Experiments on Plastic-Bonded Explosives*, **Journal of Applied Physics** 131(20), 2022. [doi:10.1063/5.0085356](https://doi.org/10.1063/5.0085356)
+- *Code & data: SCIMITAR3D solver is group-internal (Udaykumar lab, UIowa); DNS datasets are reused as ground-truth benchmarks for downstream physics-aware ML.*
