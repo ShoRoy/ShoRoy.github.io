@@ -1,6 +1,6 @@
 ---
 title: "Resume"
-description: "Downloadable resume and brief professional summary."
+description: "Education, awards, teaching, and a downloadable resume."
 ---
 
 ::: {.two-col}
@@ -28,7 +28,54 @@ My work spans solver development, microstructure-resolved DNS, HPC production ca
 
 ## Highlights
 
+- Co-architected **D-PARC** (Beerman, **Roy**, et al., 2026) &mdash; a physics-aware deformable-convolution neural operator; contributed the hybrid Lagrangian&ndash;Eulerian / deformable-convolution analogy.
+- Leading the design of an **agentic microstructure-to-prediction sub-pipeline** as part of a closed-loop materials-discovery framework co-designed with my PI.
 - 7 peer-reviewed journal papers across **Shock Waves**, **Journal of Applied Physics**, **Journal of Fluid Mechanics**, and **APL Machine Learning**.
-- Production HPC campaigns resolving sub-micron damage features at 140M-cell, 7,000-core, ~2.8M CPU-hour scale.
-- Multi-institution research interfaces across AFOSR-MURI, ONR-MURI, UIUC, LANL, UVA, IIT Delhi, and IIT Madras collaborations.
-- Mentoring of 2 PhD students on simulation methodology, HPC workflows, and SCIMITAR3D adoption.
+- Production HPC campaigns resolving sub-micron damage features at **150M cells, 7,000 cores, ~3M CPU-hours at 15 nm grid resolution**.
+- Mentoring **1 postdoc, 2 graduate students, and 1 undergraduate intern** at IIHR / University of Iowa; multi-institution research interfaces across AFOSR-MURI, ONR-MURI, UIUC, LANL, UVA, IIT Delhi, and IIT Madras.
+
+## Education
+
+**PhD, Mechanical Engineering** &mdash; University of Iowa, May 2025
+Advisor: Prof. H.S. Udaykumar
+*Dissertation: "A versatile framework for high-fidelity computations of high-speed reactive multi-material dynamics."*
+
+**MS (Research), Aerospace Engineering** &mdash; Indian Institute of Technology Madras, June 2019
+Advisors: Prof. Santanu Ghosh & Prof. G. Rajesh
+*Thesis: "Investigation of Drag Reduction using a Porous Medium for a Normal-Shock / Boundary-Layer Interaction."*
+
+**BTech, Mechanical Engineering** &mdash; National Institute of Technology Durgapur, May 2015
+
+## Teaching
+
+- **Teaching Assistant** (University of Iowa side) for *Physics-Aware Deep Learning &mdash; PINNs, neural operators, PARC, reduced-order models*, offered jointly with the University of Virginia School of Data Science (Spring 2026).
+
+## Honors & Awards
+
+- **Ballard & Seashore Dissertation Fellowship**, University of Iowa (2025)
+- **1st Place (Graduate Category, Mechanical Engineering)**, Research Open House Poster Competition, College of Engineering, University of Iowa (2025)
+- **Finalist (Top 13)**, University of Iowa Graduate College Three Minute Thesis (3MT) (2024)
+- **Excellent Presentation Award**, 7th International Symposium on Energetic Materials and Their Applications, Tokyo, Japan (2021)
+- **Dean's Graduate Fellowship**, College of Engineering, University of Iowa (2019)
+
+## Adjacent capabilities
+
+::: {.grid}
+::: {.card}
+### Adjacent SciML stack
+
+Conversant with **PINNs**, **FNO**, **DeepONet**, differentiable simulation, active learning, and Bayesian optimization &mdash; built through architecture evaluation, collaboration with the UVA Baek group, and the joint PADL course.
+:::
+
+::: {.card}
+### Scientific MLOps practice
+
+Model registry, provenance and lineage tracking, RAG over scientific data, multi-agent orchestration for parallel research threads (literature triage, comparative-method research, build-script generation).
+:::
+
+::: {.card}
+### LLM-augmented research workflow
+
+GitHub Copilot CLI and VS Code agent mode (Claude, GPT) for code review and scheme prototyping; repo-scoped agents, version-controlled prompts and session transcripts, reproducible markdown&rarr;DOCX pipelines.
+:::
+:::
