@@ -26,15 +26,14 @@ description: "Peer-reviewed journals, proceedings, preprints, and selected prese
 ## Conference Proceedings
 
 8. **Roy, S.**, Rajesh, G. - *Analytical Prediction of Mach Stem Height for Asymmetric Wedge Reflection in 2-D Steady Flows*, **31st International Symposium on Shock Waves 1**, Springer, Cham, 2019. [doi:10.1007/978-3-319-91020-8_102](https://doi.org/10.1007/978-3-319-91020-8_102)
-9. Sahoo, A., **Roy, S.**, Ghosh, S. - *Numerical Investigation of Transonic Flow over Porous Medium Using Immersed Boundary Method*, **2018 Applied Aerodynamics Conference**, AIAA 2018-3339, 2018. [doi:10.2514/6.2018-3339](https://doi.org/10.2514/6.2018-3339)
-10. **Roy, S.**, Subramaniam, K., Ghosh, S. - *Passive control of normal-shock-wave/boundary-layer interaction using porous medium: computational study*, **35th AIAA Applied Aerodynamics Conference**, AIAA 2017-3912, 2017. [doi:10.2514/6.2017-3912](https://doi.org/10.2514/6.2017-3912)
-11. Sahoo, A., Ghosh, S., & **Roy, S.** - *Transonic flow past a porous medium: effect of porosity*, **AIAA Aviation 2019 Forum**, AIAA 2019-3076, 2019. [doi:10.2514/6.2019-3076](https://doi.org/10.2514/6.2019-3076)
+9. Sahoo, A., Ghosh, S., & **Roy, S.** - *Transonic flow past a porous medium: effect of porosity*, **AIAA Aviation 2019 Forum**, AIAA 2019-3076, 2019. [doi:10.2514/6.2019-3076](https://doi.org/10.2514/6.2019-3076)
+10. Sahoo, A., **Roy, S.**, Ghosh, S. - *Numerical Investigation of Transonic Flow over Porous Medium Using Immersed Boundary Method*, **2018 Applied Aerodynamics Conference**, AIAA 2018-3339, 2018. [doi:10.2514/6.2018-3339](https://doi.org/10.2514/6.2018-3339)
+11. **Roy, S.**, Subramaniam, K., Ghosh, S. - *Passive control of normal-shock-wave/boundary-layer interaction using porous medium: computational study*, **35th AIAA Applied Aerodynamics Conference**, AIAA 2017-3912, 2017. [doi:10.2514/6.2017-3912](https://doi.org/10.2514/6.2017-3912)
 
 ## Selected Presentations
 
 - **Roy, S.**, Seshadri, P.K., Fang, I., Fuhrmeister, J., & Udaykumar, H.S. - *SCIMITAR3D-V2.0: A versatile high-order accurate sharp-interface framework for compressible multi-material reactive simulations of heterogeneous energetic materials*, **APS SCCM 2025**.
-- **Roy, S.**, Nguyen, Y.T., Udaykumar, H.S. - *Micro-detonation: can rapid reaction waves result from void-void interactions in shocked energetic crystals?*, **APS SCCM 2025**.
-- Fang, I., **Roy, S.**, Baek, S.S., Udaykumar, H.S. - *Heterogeneous energetic damage simulator (HEDS): Deep Learning for Synthetic PBX Microstructures with Controlled Damage and Porosity*, **APS SCCM 2025**.
 - **Roy, S.**, Okafor, C., Seshadri, P.K., & Udaykumar, H.S. - *High-fidelity mesoscale calculations of shock initiation in HMX-based PBXs*, **Energetic Materials, Gordon Research Conference**, 2024.
+- **Roy, S.** - *A study of reaction growth-rate and burn-front velocity in PBXs through interface-resolved reactive simulations and experiments*, **7th International Symposium on Energetic Materials and Their Applications (ISEM)**, Tokyo, Japan, 2021. *Excellent Presentation Award.*
 
 For the complete presentation list, see the downloadable resume.
