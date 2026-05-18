@@ -72,6 +72,8 @@ Computational physicist and SciML researcher working on multi-physics modeling a
 My work connects image-derived microstructures of energetic composites, sharp-interface mesoscale simulation, and physics-aware ML so that surrogate models can be evaluated on quantities that matter physically: pore collapse, hotspot formation, shear localization, shock propagation, damage evolution, and the resulting continuum response under extreme loading.
 
 The site highlights four threads: SCIMITAR3D solver development, production HPC campaigns on DoD systems, the HEDS microstructure-to-sensitivity framework, and physics-aware ML benchmarks for PARC / D-PARC neural surrogates.
+
+Current direction: designing an **agentic microstructure-to-prediction sub-pipeline** as part of a closed-loop materials-discovery framework &mdash; routing imaged and ML-generated microstructures through SCIMITAR3D or PARC-family predictors, with agentic AI orchestration across heterogeneous compute and provenance stores. See [Research](research.qmd) for the current-work detail.
 :::
 
 ::: {}
