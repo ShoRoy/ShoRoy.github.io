@@ -4,8 +4,13 @@ summary: "A deep learning and computational mechanics framework for damage-sensi
 ---
 
 ::: {.wide-media}
-![](../assets/frame-collapse.png){fig-alt="Simulation snapshot showing pore collapse and damage signatures during shock loading of an HMX crystal-binder microstructure."}
-<div class="caption">Mid-simulation snapshot used in HEDS-style evaluation: pore collapse and damage signatures in a shocked HMX crystal-binder microstructure.</div>
+![](../assets/heds-microstructure-ensemble.png){fig-alt="HEDS generative output: one damaged PBX microstructure input on the left, with four CycleGAN-generated variants on the right showing increasing levels of damage."}
+<div class="caption">HEDS generates an ensemble of damaged microstructures from a single input by injecting controlled noise into the CycleGAN component (Fang, **Roy**, et al., [**APL Machine Learning** 3(2), 2025](https://doi.org/10.1063/5.0257683), Fig. 11). The ensemble lets us study how damage level shifts simulation-side response without changing the macroscale geometry.</div>
+:::
+
+::: {.wide-media}
+![](../assets/heds-shock-temperature.png){fig-alt="Temperature contours from SCIMITAR3D shock-initiation simulations of two HEDS-generated PBX 9501 microstructures (low damage and high damage) at t = 0, 5, 10, 15, and 40 ns after a 3.3 km/s flyer impact."}
+<div class="caption">SCIMITAR3D temperature predictions for two HEDS-generated PBX 9501 microstructures with identical macroscale geometry but different damage levels (Fang, **Roy**, et al., [**APL Machine Learning** 3(2), 2025](https://doi.org/10.1063/5.0257683), Fig. 13). Five timesteps (0, 5, 10, 15, 40 ns) after a 3.3 km/s flyer impact; the higher-damage case shifts both hotspot intensity and extent.</div>
 :::
 
 **Role:** Simulation and physics-validation lead. ML architecture and training led by collaborators (Fang, Nguyen, Baek).

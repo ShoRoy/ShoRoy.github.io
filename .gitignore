@@ -4,3 +4,8 @@
 Thumbs.db
 **/*.quarto_ipynb
 /.github/agents/
+
+# Article PDFs dropped into assets/ for figure extraction only.
+# The downloadable resume is tracked explicitly.
+assets/*.pdf
+!assets/Shobhan_Roy_Resume.pdf
