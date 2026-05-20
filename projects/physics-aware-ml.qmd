@@ -12,7 +12,7 @@ summary: "Co-architecting D-PARC physics-aware neural operators and curating DNS
 
 ## Problem
 
-Neural surrogates for transient, shock-driven multi-physics problems are often evaluated on image-similarity metrics that ignore the governing PDEs. The result: models that look right and predict wrong &mdash; conservation, interface conditions, and entropy constraints quietly violated. For surrogates to be trustworthy *inside* materials and simulation pipelines, both the architecture and the evaluation have to be physics-consistent, not pixel-consistent.
+CNN-based surrogates for shock-driven multi-physics flows sample on a fixed Cartesian grid &mdash; a direct inheritance from computer vision. Classical computational mechanics started from the same Eulerian footing, but spent decades developing tools for problems where sharp gradients aren't aligned with the grid: high-order shock-capturing flux schemes (WENO, PPM) for fluids, body-fitted curvilinear meshes for oblique material interfaces in solid mechanics, adaptive mesh refinement, and Hybrid Lagrangian&ndash;Eulerian methods (PIC, ALE, IBM) where particles transport state across a structured background. Vanilla CNNs inherit none of that adaptivity. Scaling model parameters &mdash; the broader AI community's default &mdash; adds capacity but doesn't give the network a way to follow features where the physics is sharp. The architectural question for physics-aware deep learning is whether one of those classical adaptations can be brought *inside* the network itself.
 
 ## Technical Approach
 
@@ -20,19 +20,23 @@ My contribution to PARC-family research sits in two pillars.
 
 **D-PARC co-architecture.** I co-architected **D-PARC** &mdash; a physics-aware deformable-convolution neural operator built on the PARC (Physics-Aware Recurrent Convolutions) family for emulation of high-speed nonlinear transport &mdash; contributing the conceptual analogy between hybrid Lagrangian&ndash;Eulerian flow-solver schemes and the deformable-convolution operator (Beerman, **Roy**, Udaykumar, Baek, arXiv 2026). The analogy lets the network adapt its spatial receptive field to local advective structure the way an adaptive solver tracks features.
 
-**DNS benchmarks and physics-consistent evaluation.** As the simulation-side lead for the University of Virginia (Baek group) collaboration, I curate ground-truth DNS databases across canonical flow problems and energetic-material regimes, select simulation parameters to maximize physical coverage, and define the physics-consistent evaluation protocols &mdash; conservation residuals, interface tracking, entropy constraints &mdash; used to score both PARC and D-PARC. In parallel, I build data-driven surrogates and closure relations that link mesoscale hotspot metrics to macroscale continuum predictions.
+**DNS benchmarks and physics-consistent evaluation.** As the simulation-side lead for the University of Virginia (Baek group) collaboration, I curate ground-truth DNS databases across canonical flow problems (Burgers, Navier&ndash;Stokes) and energetic-material regimes, select simulation parameters to maximize physical coverage, and define the evaluation protocols used to score both PARC and D-PARC. In parallel, I build data-driven surrogates and closure relations that link mesoscale hotspot metrics to macroscale continuum predictions.
 
 ## Scale and Constraints
 
 - DNS data spanning canonical flows and microstructure-resolved shock-initiation regimes.
-- Evaluation must respect the governing PDEs, not just match field snapshots.
+- Evaluation must penalize physics-violating predictions, not just visual similarity.
 - Surrogate models targeted at use *inside* multi-scale simulation workflows, where unphysical predictions break downstream solvers.
 
 **Tech stack:** Python &middot; PyTorch (incl. PARCtorch) &middot; TensorFlow &middot; SCIMITAR3D-derived DNS pipelines &middot; HPC scheduling and parallel I/O.
 
 ## Validation
 
-Models are scored against held-out DNS using physics-aware metrics: conservation residuals, interface tracking error, hotspot localization, and transient response characteristics &mdash; alongside standard field-error norms. The point is to fail loudly when the model violates physics it should not.
+Models are scored against held-out DNS using metrics chosen to fail loudly when physics is violated: field-level RMSE on velocity / pressure / temperature, spatial-overlap measures (IoU, Dice) on hotspot geometry, an IoU-weighted RMSE that penalizes joint mis-localization and thermal error, and Effective Receptive Field analysis that diagnoses where each model actually draws information from. The goal is to distinguish architectural wins from parameter-count wins.
+
+## Forward thread
+
+D-PARC addresses the architectural side; the harder long-game in this space is **evaluation**. Neural surrogates for transient, shock-driven multi-physics problems are still routinely judged on image-similarity metrics that ignore the governing PDEs &mdash; models that look right and predict wrong, with conservation, interface conditions, and entropy constraints quietly violated. For surrogates to be trustworthy *inside* materials and simulation pipelines, both the architecture and the evaluation have to be physics-consistent, not pixel-consistent. The DNS-curation work above is groundwork for that alternative; see the [Research](../research.qmd) page for this thread in fuller form.
 
 ## Outcome
 
