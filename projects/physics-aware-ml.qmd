@@ -4,8 +4,8 @@ summary: "Co-architecting D-PARC physics-aware neural operators and curating DNS
 ---
 
 ::: {.wide-media}
-![](../assets/dparc-hotspot-emulation.png){fig-alt="Temporal evolution of temperature during shock-induced pore collapse in an energetic material. Rows compare ground truth (GT) against D-PARC, PARCv2, and PARCv2-L surrogate predictions across four timesteps (0.17, 0.68, 1.36, 2.04 ns)."}
-<div class="caption">Figure 7 from Beerman, **Roy**, et al. (2026): temporal evolution of the temperature field during shock-induced pore collapse in an energetic material. D-PARC tracks both hotspot morphology and peak intensity from ground-truth DNS, while PARCv2-L underresolves peak temperatures despite using 12.6&times; more parameters than D-PARC.</div>
+![](../assets/dparc-fig5-architecture.png){fig-alt="Schematic of the D-PARC architecture. Physical fields on a fixed Eulerian grid feed into the recurrent neural network at top. A separate feature branch produces per-pixel sampling offsets that move convolution kernel elements off the regular grid (the 'Lagrangian Transport' middle row), and bilinear interpolation projects the result back onto a structured Eulerian grid for the next timestep."}
+<div class="caption">Figure 5 from Beerman, **Roy**, et al. (2026): D-PARC's hybrid Lagrangian&ndash;Eulerian flow. Physical fields enter on a fixed Eulerian grid (a); the recurrent network (b) produces per-pixel offset fields that displace convolution kernels from their regular positions and let them sample at adaptive locations across the domain ("Lagrangian Transport"); bilinear interpolation projects the result back onto the structured Eulerian grid (e) for the next timestep (f). The grid stays as the computational scaffold &mdash; the kernels do the adaptive work.</div>
 :::
 
 **Role:** Co-architected D-PARC (Beerman, **Roy**, Udaykumar, Baek, 2026); simulation-side lead for the UVA (Baek group) collaboration on DNS curation and physics-consistency benchmarks.
@@ -21,6 +21,11 @@ My contribution to PARC-family research sits in two pillars.
 **D-PARC co-architecture.** I co-architected **D-PARC** &mdash; a physics-aware deformable-convolution neural operator built on the PARC (Physics-Aware Recurrent Convolutions) family for emulation of high-speed nonlinear transport &mdash; contributing the conceptual analogy between hybrid Lagrangian&ndash;Eulerian flow-solver schemes and the deformable-convolution operator (Beerman, **Roy**, Udaykumar, Baek, arXiv 2026). The analogy lets the network adapt its spatial receptive field to local advective structure the way an adaptive solver tracks features.
 
 **DNS benchmarks and physics-consistent evaluation.** As the simulation-side lead for the University of Virginia (Baek group) collaboration, I curate ground-truth DNS databases across canonical flow problems (Burgers, Navier&ndash;Stokes) and energetic-material regimes, select simulation parameters to maximize physical coverage, and define the evaluation protocols used to score both PARC and D-PARC. In parallel, I build data-driven surrogates and closure relations that link mesoscale hotspot metrics to macroscale continuum predictions.
+
+::: {.wide-media}
+![](../assets/dparc-fig2-kernel-adaptation.png){fig-alt="D-PARC kernel adaptation visualized across three locations in a shocked HMX energetic-material simulation. Top: strain-rate magnitude field at three timesteps with three sampled locations marked, alongside a conventional 3x3 convolution kernel for reference. Bottom: zoomed strain-rate field at each location (left half) and the corresponding deformed-kernel configurations (right half). Kernels at the shock front expand substantially; kernels in low-strain regions remain compact."}
+<div class="caption">Figure 2 from Beerman, **Roy**, et al. (2026): D-PARC's "active filtration" in action on the energetic-material problem. **Top (a, c):** strain-rate field at three timesteps with three sampled locations marked; conventional 3&times;3 kernel shown for reference. **Bottom (b, d):** zoomed strain (left) and corresponding deformed-kernel configurations (right) at each location across the same three timesteps. Kernels expand substantially at the shock front (middle row, Loc 153,46 at t = 1.87 ns) and stay compact in the low-strain region (top row) &mdash; emergent behavior, not hard-coded.</div>
+:::
 
 ## Scale and Constraints
 
