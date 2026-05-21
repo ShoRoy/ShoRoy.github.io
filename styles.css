@@ -159,39 +159,60 @@ a {
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
 }
 
-/* Wide feature card: spans 2 columns of the .grid (3-col → 1+2 layout).
- * Used on the home page Featured Work section for the 3MT poster card. */
-.card.card-feature-wide {
-  grid-column: span 2;
+/* Compact talk-feature banner: poster on the left + brief description
+ * on the right. Used on the home page between Featured Projects and
+ * Selected Publications for the 3MT primer card. Sized to be visually
+ * quiet relative to the .feature panel above it. */
+.talk-feature {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+  gap: 1.5rem;
+  align-items: center;
+  margin: 1.5rem 0 2rem;
 }
 
-.card.card-feature-wide a {
+.talk-feature-text {
+  color: var(--ink);
+  font-size: 1rem;
+  line-height: 1.55;
+}
+
+.talk-feature-text p {
+  margin: 0;
+}
+
+.talk-poster {
   position: relative;
   display: block;
   overflow: hidden;
-  border-radius: 4px;
-  margin: 0.5rem 0;
+  border-radius: 6px;
+  border: 1px solid var(--line);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.card.card-feature-wide a img,
-.card.card-feature-wide img {
+.talk-poster:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.talk-poster img {
   display: block;
   width: 100%;
   height: auto;
   transition: transform 0.2s ease;
 }
 
-.card.card-feature-wide a:hover img {
+.talk-poster:hover img {
   transform: scale(1.015);
 }
 
-.card.card-feature-wide a::after {
+.talk-poster::after {
   content: "\25B6";
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: rgba(255, 255, 255, 0.92);
   text-shadow: 0 2px 12px rgba(0, 0, 0, 0.6);
   pointer-events: none;
@@ -199,12 +220,9 @@ a {
   transition: opacity 0.2s ease;
 }
 
-.card.card-feature-wide a:hover::after {
+.talk-poster:hover::after {
   opacity: 1;
 }
-
-/* On mobile, span-2 collapses to full width naturally via the existing
- * 780px media query (which retargets .grid to 1fr). */
 
 .caption {
   color: var(--muted);
@@ -265,7 +283,8 @@ h2 {
   .two-col,
   .grid,
   .focus-strip,
-  .figure-pair {
+  .figure-pair,
+  .talk-feature {
     grid-template-columns: 1fr;
   }
 

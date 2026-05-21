@@ -86,7 +86,7 @@ Current direction: designing an **agentic microstructure-to-prediction sub-pipel
 :::
 :::
 
-## Featured Work
+## Featured Projects
 
 ::: {.grid}
 ::: {.card}
@@ -120,13 +120,15 @@ Diffusion / U-Net / CycleGAN microstructure generation paired with high-fidelity
 
 [Read case study](projects/heds.qmd)
 :::
+:::
 
-::: {.card .card-feature-wide}
-### Three-minute primer
+::: {.talk-feature}
+<a href="research.html#three-minute-primer-for-non-specialists" class="talk-poster">
+<img src="assets/3MT_poster.jpg" alt="Poster for 'How (NOT) to trigger a detonation in energetic materials: the microstructure holds the key!' &mdash; UIowa Graduate College Three Minute Thesis finalist, 2024.">
+</a>
 
-[![Poster for "How (NOT) to trigger a detonation in energetic materials: the microstructure holds the key!" - 2024 Three Minute Thesis finalist, University of Iowa Graduate College.](assets/3MT_poster.jpg)](research.qmd#three-minute-primer-for-non-specialists)
-
-UIowa Graduate College 3MT finalist (2024) &mdash; a non-specialist take on the energetic-materials work.
+::: {.talk-feature-text}
+**Three-minute primer.** A non-specialist take on the energetic-materials work, in three minutes. UIowa Graduate College Three Minute Thesis finalist (2024). [Watch &rarr;](research.html#three-minute-primer-for-non-specialists)
 :::
 :::
 
