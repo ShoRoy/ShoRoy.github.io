@@ -159,69 +159,82 @@ a {
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
 }
 
-/* Compact talk-feature banner: poster on the left + brief description
- * on the right. Used on the home page between Featured Projects and
- * Selected Publications for the 3MT primer card. Sized to be visually
- * quiet relative to the .feature panel above it. */
-.talk-feature {
-  display: grid;
-  grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
-  gap: 1.5rem;
-  align-items: center;
-  margin: 1.5rem 0 2rem;
-}
-
-.talk-feature-text {
-  color: var(--ink);
-  font-size: 1rem;
+/* Standalone video-poster section: centered poster with a clear play-button
+ * affordance and a caption below. Used on the home page for the 3MT primer.
+ * Sized at ~720px max width to match the "two-thirds of content row" feel
+ * the user wants - large enough that the poster's title text reads, small
+ * enough not to dominate. */
+.video-poster-section {
+  max-width: 720px;
+  margin: 1.5rem auto 2.5rem;
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.95rem;
   line-height: 1.55;
 }
 
-.talk-feature-text p {
-  margin: 0;
+.video-poster-section > p {
+  margin: 1rem 0 0;
 }
 
-.talk-poster {
+.video-poster {
   position: relative;
   display: block;
   overflow: hidden;
   border-radius: 6px;
   border: 1px solid var(--line);
+  text-decoration: none;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.talk-poster:hover {
+.video-poster:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
 }
 
-.talk-poster img {
+.video-poster img {
   display: block;
   width: 100%;
   height: auto;
-  transition: transform 0.2s ease;
+  transition: transform 0.25s ease;
 }
 
-.talk-poster:hover img {
+.video-poster:hover img {
   transform: scale(1.015);
 }
 
-.talk-poster::after {
-  content: "\25B6";
+/* Standard "play button" affordance: dark circle with a centered white
+ * triangle. Built from a span + ::before pseudo so it works reliably
+ * even when the parent <a> is inside Quarto-rendered figure wrappers. */
+.video-poster .play-icon {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 2.5rem;
-  color: rgba(255, 255, 255, 0.92);
-  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.6);
+  width: 84px;
+  height: 84px;
+  background: rgba(0, 0, 0, 0.62);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   pointer-events: none;
-  opacity: 0.85;
-  transition: opacity 0.2s ease;
+  transition: background 0.2s ease;
 }
 
-.talk-poster:hover::after {
-  opacity: 1;
+.video-poster .play-icon::before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 14px 0 14px 22px;
+  border-color: transparent transparent transparent #fff;
+  margin-left: 5px;
+}
+
+.video-poster:hover .play-icon {
+  background: rgba(0, 0, 0, 0.78);
 }
 
 .caption {
@@ -283,8 +296,7 @@ h2 {
   .two-col,
   .grid,
   .focus-strip,
-  .figure-pair,
-  .talk-feature {
+  .figure-pair {
     grid-template-columns: 1fr;
   }
 
