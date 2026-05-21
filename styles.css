@@ -153,6 +153,12 @@ a {
   min-width: 0;
 }
 
+/* .equal modifier: two figures of similar aspect, equal column widths.
+ * Used on the physics-aware-ml page for the Fig 5 / Fig 2 pairing. */
+.figure-pair.equal {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+}
+
 .caption {
   color: var(--muted);
   font-size: 0.9rem;
