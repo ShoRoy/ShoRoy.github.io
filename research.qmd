@@ -36,6 +36,12 @@ The questions below shape what I build, run, and benchmark. They are the reason 
 
 The research has connected simulation, experiment, and machine learning across University of Iowa, UIUC, Los Alamos National Laboratory, University of Virginia, IIT Delhi, IIT Madras, AFOSR, ONR, and DRDO contexts.
 
+## Three-minute primer for non-specialists
+
+For a non-specialist version of this research, the talk below was a 2024 finalist at the University of Iowa Graduate College Three Minute Thesis (3MT) &mdash; framed through a Coyote / Road Runner opening, an Angry-Birds analogy for microstructure-driven chain reactions, and a pivot from bulk field testing to high-performance simulation.
+
+{{< video https://www.youtube.com/watch?v=Wb_TY-n2YGQ >}}
+
 ## See also
 
 [Projects](projects/index.qmd) for the solver, HPC campaigns, generative framework, and ML benchmarks that operationalize the questions above.
