@@ -159,6 +159,53 @@ a {
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
 }
 
+/* Wide feature card: spans 2 columns of the .grid (3-col → 1+2 layout).
+ * Used on the home page Featured Work section for the 3MT poster card. */
+.card.card-feature-wide {
+  grid-column: span 2;
+}
+
+.card.card-feature-wide a {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: 4px;
+  margin: 0.5rem 0;
+}
+
+.card.card-feature-wide a img,
+.card.card-feature-wide img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 0.2s ease;
+}
+
+.card.card-feature-wide a:hover img {
+  transform: scale(1.015);
+}
+
+.card.card-feature-wide a::after {
+  content: "\25B6";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  color: rgba(255, 255, 255, 0.92);
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.6);
+  pointer-events: none;
+  opacity: 0.85;
+  transition: opacity 0.2s ease;
+}
+
+.card.card-feature-wide a:hover::after {
+  opacity: 1;
+}
+
+/* On mobile, span-2 collapses to full width naturally via the existing
+ * 780px media query (which retargets .grid to 1fr). */
+
 .caption {
   color: var(--muted);
   font-size: 0.9rem;

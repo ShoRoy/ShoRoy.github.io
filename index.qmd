@@ -86,7 +86,7 @@ Current direction: designing an **agentic microstructure-to-prediction sub-pipel
 :::
 :::
 
-## Featured Projects
+## Featured Work
 
 ::: {.grid}
 ::: {.card}
@@ -119,6 +119,14 @@ Microstructure-resolved mesoscale simulations on DoD HPC systems &mdash; 150M ce
 Diffusion / U-Net / CycleGAN microstructure generation paired with high-fidelity simulation to study damage&ndash;sensitivity behavior.
 
 [Read case study](projects/heds.qmd)
+:::
+
+::: {.card .card-feature-wide}
+### Three-minute primer
+
+[![Poster for "How (NOT) to trigger a detonation in energetic materials: the microstructure holds the key!" - 2024 Three Minute Thesis finalist, University of Iowa Graduate College.](assets/3MT_poster.jpg)](research.qmd#three-minute-primer-for-non-specialists)
+
+UIowa Graduate College 3MT finalist (2024) &mdash; a non-specialist take on the energetic-materials work.
 :::
 :::
 
