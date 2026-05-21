@@ -241,14 +241,24 @@ a {
  * with autoplay (works with sound since the click is a real user gesture).
  * Used on the research page so the visitor's first impression is the
  * poster (with the correct subtitle) rather than YouTube's channel-set
- * title overlay. */
+ * title overlay.
+ *
+ * The wrap + padding-bottom pattern (instead of CSS aspect-ratio) is more
+ * robust when the inner element's content changes from <img> to <iframe>
+ * at click time — the wrap constrains max-width, the inner uses the
+ * classic 56.25% padding trick for 16:9 aspect. */
+.video-facade-wrap {
+  width: 100%;
+  max-width: 720px;
+  margin: 1.5rem auto;
+}
+
 .video-facade {
   position: relative;
   display: block;
   width: 100%;
-  max-width: 900px;
-  margin: 1.5rem auto;
-  aspect-ratio: 16 / 9;
+  padding-bottom: 56.25%;
+  height: 0;
   overflow: hidden;
   border-radius: 6px;
   border: 1px solid var(--line);
@@ -261,34 +271,36 @@ a {
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
 }
 
-.video-facade img,
-.video-facade iframe {
+.video-facade > img,
+.video-facade > iframe {
   position: absolute;
-  inset: 0;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   border: 0;
+  display: block;
 }
 
-.video-facade img {
+.video-facade > img {
   object-fit: cover;
   transition: transform 0.25s ease;
 }
 
-.video-facade:hover img {
+.video-facade:hover > img {
   transform: scale(1.015);
 }
 
 /* YouTube-style play button: red rounded rectangle with a white triangle.
- * Idle state is slightly translucent red so it integrates with the
- * thumbnail; hover state goes to full YouTube red. Matches what visitors
- * see on a real YouTube embed so the facade-to-iframe handoff feels
- * seamless. */
-.video-facade .play-icon {
+ * Idle is slightly translucent red so it integrates with the thumbnail;
+ * hover goes to full YouTube red. z-index ensures it sits above the img
+ * regardless of source order. */
+.video-facade > .play-icon {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: 5;
   width: 68px;
   height: 48px;
   background: rgba(255, 0, 0, 0.85);
@@ -300,22 +312,22 @@ a {
   transition: background 0.2s ease;
 }
 
-.video-facade .play-icon::before {
+.video-facade > .play-icon::before {
   content: "";
   display: block;
   width: 0;
   height: 0;
-  border-style: solid;
-  border-width: 9px 0 9px 14px;
-  border-color: transparent transparent transparent #fff;
+  border-left: 14px solid #fff;
+  border-top: 9px solid transparent;
+  border-bottom: 9px solid transparent;
   margin-left: 3px;
 }
 
-.video-facade:hover .play-icon {
+.video-facade:hover > .play-icon {
   background: rgb(255, 0, 0);
 }
 
-.video-facade.playing .play-icon {
+.video-facade.playing > .play-icon {
   display: none;
 }
 
