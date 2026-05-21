@@ -161,10 +161,11 @@ a {
 
 /* Standalone video-poster section: centered poster with a clear play-button
  * affordance and a caption below. Used on the home page for the 3MT talk
- * surface. Max-width 650px (~10% smaller than the prior 720px) to feel less
- * dominant relative to the Featured Projects grid above it. */
+ * surface. Max-width 550px (further ~15% reduction from the prior 650px)
+ * to feel deliberately small and contained relative to the technical
+ * Featured Projects grid above it. */
 .video-poster-section {
-  max-width: 650px;
+  max-width: 550px;
   margin: 1.5rem auto 2.5rem;
   text-align: center;
   color: var(--muted);
@@ -247,10 +248,10 @@ a {
  * robust when the inner element's content changes from <img> to <iframe>
  * at click time — the wrap constrains max-width, the inner uses the
  * classic 56.25% padding trick for 16:9 aspect. */
-/* Cache-bust marker: keep updated when changing facade dimensions. v=2 */
+/* Cache-bust marker: keep updated when changing facade dimensions. v=3 */
 .video-facade-wrap {
   width: 100%;
-  max-width: 720px;
+  max-width: calc(var(--max) * 0.8);
   margin: 1.5rem auto;
   display: block;
 }
