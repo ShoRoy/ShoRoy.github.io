@@ -36,11 +36,31 @@ The questions below shape what I build, run, and benchmark. They are the reason 
 
 The research has connected simulation, experiment, and machine learning across University of Iowa, UIUC, Los Alamos National Laboratory, University of Virginia, IIT Delhi, IIT Madras, AFOSR, ONR, and DRDO contexts.
 
-## Three-minute primer for non-specialists
+## Three-minute primer
 
 For a non-specialist version of this research, the talk below was a 2024 finalist at the University of Iowa Graduate College Three Minute Thesis (3MT) &mdash; framed through a Coyote / Road Runner opening, an Angry-Birds analogy for microstructure-driven chain reactions, and a pivot from bulk field testing to high-performance simulation.
 
-{{< video https://www.youtube.com/watch?v=Wb_TY-n2YGQ >}}
+```{=html}
+<div class="video-facade" data-yt-id="Wb_TY-n2YGQ" role="button" tabindex="0" aria-label="Play three-minute talk: How NOT to trigger a detonation in energetic materials">
+  <img src="assets/3MT_poster.jpg" alt="Poster: How (NOT) to trigger a detonation in energetic materials - the microstructure holds the key. UIowa Graduate College Three Minute Thesis finalist, 2024.">
+  <span class="play-icon" aria-hidden="true"></span>
+</div>
+<script>
+(function() {
+  document.querySelectorAll('.video-facade').forEach(function(f) {
+    var activate = function() {
+      var id = f.dataset.ytId;
+      f.innerHTML = '<iframe src="https://www.youtube.com/embed/' + id + '?autoplay=1&playsinline=1&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+      f.classList.add('playing');
+    };
+    f.addEventListener('click', activate);
+    f.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); activate(); }
+    });
+  });
+})();
+</script>
+```
 
 ## See also
 
