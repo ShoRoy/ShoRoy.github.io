@@ -1,0 +1,6 @@
+# Discourage all crawlers from indexing this site.
+# The site is still accessible directly via URL, but should not surface
+# in search results (Google, Bing, DuckDuckGo, etc.).
+
+User-agent: *
+Disallow: /

@@ -5,6 +5,7 @@ project:
     - "*.qmd"
     - "projects/*.qmd"
   resources:
+    - "robots.txt"
     - "assets/Shobhan_Roy_Resume.pdf"
     - "assets/og-card.png"
     - "assets/favicon.png"
@@ -60,6 +61,10 @@ format:
     smooth-scroll: true
     page-layout: full
     link-external-newwindow: true
+    include-in-header:
+      - text: |
+          <meta name="robots" content="noindex, nofollow">
+          <meta name="googlebot" content="noindex, nofollow">
 
 execute:
   freeze: auto
