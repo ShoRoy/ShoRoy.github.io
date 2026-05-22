@@ -95,7 +95,12 @@ Diffusion / U-Net / CycleGAN microstructure generation paired with high-fidelity
 ::: {.video-poster-section}
 <a href="research.html#three-minute-primer" class="video-poster">
 <img src="assets/3MT_poster.jpg" alt="Poster for 'How (NOT) to trigger a detonation in energetic materials: the microstructure holds the key!' &mdash; UIowa Graduate College Three Minute Thesis finalist, 2024.">
-<span class="play-icon" aria-hidden="true"></span>
+<span class="redirect-icon" aria-hidden="true">
+<svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+<path d="M5 20 Q 5 6 18 6"/>
+<polyline points="13 2 18 6 13 11"/>
+</svg>
+</span>
 </a>
 
 Three Minute Thesis finalist talk, UIowa Graduate College (2024) &mdash; a non-specialist take on the energetic-materials work.

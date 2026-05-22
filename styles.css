@@ -203,10 +203,12 @@ a {
   transform: scale(1.015);
 }
 
-/* Standard "play button" affordance: dark circle with a centered white
- * triangle. Built from a span + ::before pseudo so it works reliably
- * even when the parent <a> is inside Quarto-rendered figure wrappers. */
-.video-poster .play-icon {
+/* "Redirect" affordance for the home-page 3MT poster. Dark circle with
+ * a centered white curved arrow (SVG) instead of a play triangle — the
+ * click navigates to the research page where the video is actually
+ * embedded, so the icon should signal "view elsewhere," not "play
+ * here." Matches the iOS/Material share-arrow shape. */
+.video-poster .redirect-icon {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -222,18 +224,11 @@ a {
   transition: background 0.2s ease;
 }
 
-.video-poster .play-icon::before {
-  content: "";
+.video-poster .redirect-icon svg {
   display: block;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 14px 0 14px 22px;
-  border-color: transparent transparent transparent #fff;
-  margin-left: 5px;
 }
 
-.video-poster:hover .play-icon {
+.video-poster:hover .redirect-icon {
   background: rgba(0, 0, 0, 0.78);
 }
 
