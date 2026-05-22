@@ -10,7 +10,7 @@ image: assets/og-card.png
 
 # Shobhan Roy
 
-<p class="hero-tagline">Computational physicist integrating high-fidelity simulation and SciML surrogates for materials modeling and discovery.</p>
+<p class="hero-tagline">Computational physicist integrating multi-physics modeling and physics-aware ML into frameworks for materials modeling and discovery.</p>
 
 <p class="dek dek-justified">I'm a postdoctoral researcher specializing in shock physics, energetic materials, and physics-aware deep learning. My work spans high-fidelity finite-volume and sharp-interface solver development, production-scale simulation campaigns on DoD HPC systems, and the design of validation benchmarks and surrogate models that connect material microstructure, hotspot dynamics, and continuum response under extreme loading.</p>
 
