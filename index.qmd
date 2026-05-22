@@ -4,38 +4,6 @@ description: "Computational physicist and SciML researcher working on multi-phys
 image: assets/og-card.png
 ---
 
-```{=html}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Shobhan Roy",
-  "jobTitle": "Postdoctoral Research Scholar",
-  "affiliation": {
-    "@type": "Organization",
-    "name": "IIHR - Hydroscience & Engineering, University of Iowa"
-  },
-  "url": "https://www.shobhanroy.com",
-  "image": "https://www.shobhanroy.com/assets/headshot.jpg",
-  "sameAs": [
-    "https://scholar.google.com/citations?user=bvv9o2cAAAAJ&hl=en",
-    "https://orcid.org/0000-0002-9361-5367",
-    "https://www.linkedin.com/in/shobhan-roy"
-  ],
-  "knowsAbout": [
-    "Computational Physics",
-    "Scientific Machine Learning",
-    "Shock Physics",
-    "Energetic Materials",
-    "Multi-Physics Simulation",
-    "High-Performance Computing",
-    "Sharp-Interface Methods",
-    "Physics-Aware Deep Learning"
-  ]
-}
-</script>
-```
-
 ::: {.hero}
 ::: {}
 <div class="eyebrow">Postdoctoral Research Scholar &middot; University of Iowa</div>

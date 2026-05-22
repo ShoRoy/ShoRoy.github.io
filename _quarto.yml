@@ -49,8 +49,8 @@ website:
   page-footer:
     left: "Copyright 2026 Shobhan Roy"
     right: "Built with Quarto &middot; AI-assisted (Copilot + VS Code agents)"
-  open-graph: true
-  twitter-card: true
+  open-graph: false
+  twitter-card: false
   search: false
 
 format:
