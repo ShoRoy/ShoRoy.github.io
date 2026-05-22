@@ -106,6 +106,7 @@ a {
   padding: 1rem;
   border-right: 1px solid var(--line);
   font-weight: 700;
+  text-align: center;
 }
 
 .focus-strip div:last-child {
@@ -449,6 +450,50 @@ h2 {
   border-color: var(--accent);
   transform: translateY(-2px);
   box-shadow: 0 6px 18px -10px rgba(15, 118, 110, 0.35);
+}
+
+/* ---------- Trial: hero tagline + 5-item focus strip + justified dek -------- *
+ * Self-isolating class names — these styles only activate where the
+ * classes appear in markup, so the live home page is unaffected.
+ *
+ * .hero-tagline: sits below the H1 (Name), identity statement that
+ *   establishes physicist-first specialization. Sized between H1 and
+ *   dek so it reads as a subtitle, not a header.
+ * .focus-strip-5: 5-column variant of the focus strip for the extended
+ *   keyword list.
+ * .dek-justified: justified text alignment for the about-me paragraph.
+ */
+.hero-tagline {
+  color: var(--ink);
+  font-size: clamp(1.1rem, 1.55vw, 1.32rem);
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 0 0 1.1rem;
+  letter-spacing: -0.005em;
+}
+
+.focus-strip.focus-strip-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.dek-justified,
+.feature p {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
+
+/* Below the mobile breakpoint, narrow columns + justification produce
+ * ugly word-spacing rivers even with hyphens: auto, and browser
+ * hyphenation can break words at odd places. Drop back to left-align
+ * (natural ragged right) on narrow screens — browsers handle this best
+ * by default. */
+@media (max-width: 780px) {
+  .dek-justified,
+  .feature p {
+    text-align: left;
+    hyphens: manual;
+  }
 }
 
 @media print {

@@ -6,13 +6,13 @@ image: assets/og-card.png
 
 ::: {.hero}
 ::: {}
-<div class="eyebrow">Postdoctoral Research Scholar &middot; University of Iowa</div>
+<div class="eyebrow">IIHR&mdash;Hydroscience and Engineering, University of Iowa</div>
 
 # Shobhan Roy
 
-Computational physicist and SciML researcher working on multi-physics modeling and physics-aware AI.
+<p class="hero-tagline">Computational physicist &middot; SciML &middot; materials modeling</p>
 
-<p class="dek">I'm a postdoctoral researcher at the University of Iowa specializing in shock physics, energetic materials, and physics-aware deep learning. My work spans high-fidelity finite-volume and sharp-interface solver development, production-scale simulation campaigns on DoD HPC systems, and the design of validation benchmarks and surrogate models that connect material microstructure, hotspot dynamics, and continuum response under extreme loading.</p>
+<p class="dek dek-justified">I'm a postdoctoral researcher specializing in shock physics, energetic materials, and physics-aware deep learning. My work spans high-fidelity finite-volume and sharp-interface solver development, production-scale simulation campaigns on DoD HPC systems, and the design of validation benchmarks and surrogate models that connect material microstructure, hotspot dynamics, and continuum response under extreme loading.</p>
 
 <div class="actions">
   <a class="button primary" href="projects/index.qmd">View projects</a>
@@ -26,7 +26,8 @@ Computational physicist and SciML researcher working on multi-physics modeling a
 :::
 :::
 
-::: {.focus-strip}
+::: {.focus-strip .focus-strip-5}
+<div>Multi-physics modeling</div>
 <div>Sharp-interface multi-material solvers</div>
 <div>Production HPC campaigns</div>
 <div>Physics-aware deep learning</div>
