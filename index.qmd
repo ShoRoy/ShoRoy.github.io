@@ -28,7 +28,7 @@ image: assets/og-card.png
 
 ::: {.focus-strip .focus-strip-5}
 <div>Multi-physics modeling</div>
-<div>Sharp-interface multi-material solvers</div>
+<div>Sharp-interface multi-material methods</div>
 <div>Production HPC campaigns</div>
 <div>Physics-aware deep learning</div>
 <div>Microstructure-to-response modeling</div>
@@ -55,9 +55,9 @@ Current direction: designing an **agentic microstructure-to-prediction sub-pipel
 :::
 :::
 
-## Featured Projects
+## Featured Works
 
-::: {.grid}
+::: {.grid .grid-featured-works}
 ::: {.card}
 ### SCIMITAR3D solver development
 
@@ -89,22 +89,16 @@ Diffusion / U-Net / CycleGAN microstructure generation paired with high-fidelity
 
 [Read case study](projects/heds.qmd)
 :::
+
+::: {.card .card-3mt}
+### Three-minute talk
+
+![3MT poster: How (NOT) to trigger a detonation in energetic materials.](assets/3MT_poster.jpg)
+
+UIowa Graduate College 3MT finalist (2024) &mdash; a non-specialist take on the energetic-materials work.
+
+[Watch talk](research.html#three-minute-primer)
 :::
-
-## Three-minute talk
-
-::: {.video-poster-section}
-<a href="research.html#three-minute-primer" class="video-poster">
-<img src="assets/3MT_poster.jpg" alt="Poster for 'How (NOT) to trigger a detonation in energetic materials: the microstructure holds the key!' &mdash; UIowa Graduate College Three Minute Thesis finalist, 2024.">
-<span class="redirect-icon" aria-hidden="true">
-<svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-<line x1="7" y1="17" x2="17" y2="7"/>
-<polyline points="8 7 17 7 17 16"/>
-</svg>
-</span>
-</a>
-
-Three Minute Thesis finalist talk, UIowa Graduate College (2024) &mdash; a non-specialist take on the energetic-materials work.
 :::
 
 ## Selected Publications

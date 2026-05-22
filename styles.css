@@ -105,8 +105,9 @@ a {
 .focus-strip div {
   padding: 1rem;
   border-right: 1px solid var(--line);
-  font-weight: 700;
+  font-weight: 500;
   text-align: center;
+  color: var(--muted);
 }
 
 .focus-strip div:last-child {
@@ -495,6 +496,78 @@ h2 {
   .feature p {
     text-align: left;
     hyphens: manual;
+  }
+}
+
+/* ---------- Trial: Featured Works (5-card grid with 3MT) ---------- *
+ * Single row of 5 narrower-taller cards. Cards are equal-height via
+ * flex-column + grid stretch alignment, and content (text, link, or
+ * poster) flows top-to-bottom with the link pinned to the bottom.
+ * The 3MT card embeds a small poster thumbnail in place of the
+ * paragraph-of-text the other four cards have.
+ */
+/* 6-col grid, each card spans 2 columns. With a generous 2.5rem gap,
+ * card widths shrink slightly and the inter-card breathing room is
+ * much more visible. Bottom row of 2 cards packs to the left
+ * (defaults to col 1 and col 3) instead of centering. */
+.grid.grid-featured-works {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 2.5rem;
+}
+
+.grid-featured-works .card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.1rem;
+  min-height: 280px;
+  grid-column: span 2;
+  background: var(--surface);
+  text-align: center;
+}
+
+.grid-featured-works .card h3 {
+  font-size: 1.02rem;
+  line-height: 1.25;
+  margin: 0 0 0.55rem;
+}
+
+.grid-featured-works .card p {
+  font-size: 0.88rem;
+  line-height: 1.5;
+  margin: 0 0 0.7rem;
+}
+
+/* Pin the link to the card bottom so the row looks aligned. */
+.grid-featured-works .card > p:last-of-type {
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
+/* 3MT card: poster sits where the paragraph-of-text sits in the
+ * other cards — small thumbnail width, framed, no overlay arrow. */
+.grid-featured-works .card-3mt img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 0 0.7rem;
+  border-radius: 4px;
+  border: 1px solid var(--line);
+}
+
+.grid-featured-works .card-3mt figure {
+  margin: 0 0 0.7rem;
+}
+
+.grid-featured-works .card-3mt figcaption {
+  display: none;
+}
+
+@media (max-width: 980px) {
+  .grid.grid-featured-works {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .grid-featured-works .card {
+    grid-column: auto;
   }
 }
 
