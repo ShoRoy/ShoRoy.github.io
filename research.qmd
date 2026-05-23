@@ -64,6 +64,8 @@ For a non-specialist version of this research, the talk below was a 2024 finalis
 </script>
 ```
 
+For the institutional record, see the [UIowa Graduate College 3MT program page](https://grad.uiowa.edu/grad-success/3MT) and the [2024 showcase](https://grad.uiowa.edu/grad-success/3MT/past-winners/2024-showcase) listing.
+
 ## See also
 
 [Projects](projects/index.qmd) for the solver, HPC campaigns, generative framework, and ML benchmarks that operationalize the questions above.
