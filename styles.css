@@ -97,7 +97,7 @@ a {
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 0;
   margin: 0 0 3rem;
 }
@@ -394,6 +394,14 @@ h2 {
     grid-template-columns: 1fr;
   }
 
+  /* Higher-specificity overrides — these classes' base rules also
+   * specify their own column counts and would otherwise win over the
+   * single-selector rule above on phone widths. */
+  .focus-strip.focus-strip-5,
+  .grid.grid-featured-works {
+    grid-template-columns: 1fr;
+  }
+
   .hero {
     padding-top: 2rem;
   }
@@ -476,7 +484,7 @@ h2 {
 }
 
 .focus-strip.focus-strip-5 {
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 
 .dek-justified,
