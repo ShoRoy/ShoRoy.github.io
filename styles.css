@@ -44,6 +44,26 @@ a {
   margin-bottom: 1rem;
 }
 
+/* SVG-as-H1 on the home page: replaces the "Shobhan Roy" text with an
+ * inline SVG of the name converted to vector paths. Sizes to match the
+ * visual cap-height of the previous text H1. The SVG viewBox includes
+ * full font ascent + descent (~1.2em), so the rendered height is set a
+ * bit larger than the text H1's font-size to keep the visual mass
+ * comparable. fill="currentColor" picks up var(--ink) from inherited
+ * color. */
+.hero h1.hero-name {
+  margin: 0 0 1rem;
+  line-height: 1;
+  font-size: 0;  /* kill any inline whitespace gap from the wrapper */
+}
+
+.hero-name svg {
+  display: block;
+  height: clamp(2.3rem, 3.6vw, 3.4rem);
+  width: auto;
+  color: var(--ink);
+}
+
 .dek {
   color: var(--muted);
   font-size: 1.12rem;
