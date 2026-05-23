@@ -6,7 +6,7 @@ project:
     - "projects/*.qmd"
   resources:
     - "robots.txt"
-    - "assets/Shobhan_Roy_Resume.pdf"
+    - "assets/Resume.pdf"
     - "assets/og-card.png"
     - "assets/favicon.png"
     - "assets/favicon-32.png"
@@ -46,9 +46,9 @@ website:
         href: https://www.linkedin.com/in/shobhan-roy
         aria-label: LinkedIn
       - text: "Resume (PDF)"
-        href: assets/Shobhan_Roy_Resume.pdf
+        href: assets/Resume.pdf
   page-footer:
-    left: "Copyright 2026 Shobhan Roy"
+    left: "Copyright 2026 S Roy"
     right: "Built with Quarto &middot; AI-assisted (Copilot + VS Code agents)"
   open-graph: false
   twitter-card: false

@@ -8,7 +8,7 @@ Thumbs.db
 # Article PDFs dropped into assets/ for figure extraction only.
 # The downloadable resume is tracked explicitly.
 assets/*.pdf
-!assets/Shobhan_Roy_Resume.pdf
+!assets/Resume.pdf
 
 # Source-format media (only the web-encoded variants are shipped)
 assets/*.avi

@@ -16,7 +16,7 @@ image: assets/og-card.png
 
 <div class="actions">
   <a class="button primary" href="projects/index.qmd">View projects</a>
-  <a class="button" href="assets/Shobhan_Roy_Resume.pdf">Download Resume</a>
+  <a class="button" href="assets/Resume.pdf" download="Resume_SRoy.pdf">Download Resume</a>
   <a class="button" href="contact.qmd">Contact</a>
 </div>
 :::

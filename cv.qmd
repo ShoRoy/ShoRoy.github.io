@@ -10,7 +10,7 @@ I am a computational physicist and scientific machine learning researcher specia
 My work spans solver development, microstructure-resolved DNS, HPC production campaigns, and simulation-grounded ML evaluation for energetic-material response under extreme loading.
 
 <div class="actions">
-  <a class="button primary" href="assets/Shobhan_Roy_Resume.pdf">Download Resume</a>
+  <a class="button primary" href="assets/Resume.pdf" download="Resume_SRoy.pdf">Download Resume</a>
   <a class="button" href="publications.qmd">Publications</a>
 </div>
 :::
