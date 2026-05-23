@@ -6,7 +6,7 @@ description: "Peer-reviewed journals, proceedings, preprints, and selected prese
 <div class="profile-badges">
   <a class="profile-badge" href="https://scholar.google.com/citations?user=bvv9o2cAAAAJ&hl=en" rel="noopener">Google Scholar &rarr;</a>
   <a class="profile-badge" href="https://orcid.org/0000-0002-9361-5367" rel="noopener">ORCID &rarr;</a>
-  <a class="profile-badge" href="assets/Resume.pdf" download="Resume_SRoy.pdf">Full Resume &rarr;</a>
+  <a class="profile-badge" href="cv.html">Resume &rarr;</a>
 </div>
 
 ## Preprint
