@@ -54,7 +54,7 @@ Advisors: Prof. Santanu Ghosh & Prof. G. Rajesh
 
 - **Ballard & Seashore Dissertation Fellowship**, University of Iowa (2025)
 - **1st Place (Graduate Category, Mechanical Engineering)**, Research Open House Poster Competition, College of Engineering, University of Iowa (2025)
-- **Finalist (Top 13)**, University of Iowa Graduate College [Three Minute Thesis (3MT)](https://www.youtube.com/watch?v=Wb_TY-n2YGQ) (2024) &mdash; *"How (NOT) to trigger a detonation"*
+- **Finalist (Top 13)**, University of Iowa Graduate College [Three Minute Thesis (3MT)](research.html#three-minute-primer) (2024) &mdash; *"How (NOT) to trigger a detonation"*
 - **Excellent Presentation Award**, 7th International Symposium on Energetic Materials and Their Applications, Tokyo, Japan (2021)
 - **Dean's Graduate Fellowship**, College of Engineering, University of Iowa (2019)
 

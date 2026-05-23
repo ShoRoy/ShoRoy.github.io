@@ -514,20 +514,21 @@ h2 {
  * The 3MT card embeds a small poster thumbnail in place of the
  * paragraph-of-text the other four cards have.
  */
-/* 6-col grid, each card spans 2 columns. With a generous 2.5rem gap,
- * card widths shrink slightly and the inter-card breathing room is
- * much more visible. Bottom row of 2 cards packs to the left
- * (defaults to col 1 and col 3) instead of centering. */
+/* 6-col grid, each card spans 2 columns. Gap is generous enough to
+ * show breathing room between cards, but tight enough that each card
+ * is wide enough for the 3MT blurb to fit on 2 lines (so the 3MT card
+ * — the tallest because of its poster — sets a shorter equal-height
+ * for all 5 tiles in the row). Bottom row of 2 packs left. */
 .grid.grid-featured-works {
   grid-template-columns: repeat(6, minmax(0, 1fr));
-  gap: 2.5rem;
+  gap: 1.5rem;
 }
 
 .grid-featured-works .card {
   display: flex;
   flex-direction: column;
   padding: 1.1rem;
-  min-height: 280px;
+  min-height: 240px;
   grid-column: span 2;
   background: var(--surface);
   text-align: center;

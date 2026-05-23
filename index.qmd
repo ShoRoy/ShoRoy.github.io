@@ -95,7 +95,7 @@ Diffusion / U-Net / CycleGAN microstructure generation paired with high-fidelity
 
 ![3MT poster: How (NOT) to trigger a detonation in energetic materials.](assets/3MT_poster.jpg)
 
-UIowa Graduate College 3MT finalist (2024) &mdash; a non-specialist take on the energetic-materials work.
+UIowa Graduate College 3MT finalist (2024) &mdash; non-specialist take on the energetic-materials work.
 
 [Watch talk](research.html#three-minute-primer)
 :::
