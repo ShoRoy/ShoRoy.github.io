@@ -20,12 +20,13 @@ project:
     - "assets/shock-pore-collapse.mp4"
 
 website:
-  title: "Shobhan Roy"
+  title: "Computational physicist and SciML researcher · IIHR"
   site-url: "https://www.shobhanroy.com"
   description: "Computational physicist and SciML researcher working on multi-physics modeling and physics-aware AI."
   image: assets/og-card.png
   favicon: assets/favicon.png
   navbar:
+    title: "Shobhan Roy"
     pinned: true
     left:
       - text: "Home"

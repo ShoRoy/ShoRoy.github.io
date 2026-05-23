@@ -1,5 +1,5 @@
 ---
-pagetitle: "Shobhan Roy"
+pagetitle: "Computational physicist and SciML researcher · IIHR"
 description: "Computational physicist and SciML researcher working on multi-physics modeling and physics-aware AI."
 image: assets/og-card.png
 ---
