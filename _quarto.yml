@@ -26,11 +26,9 @@ website:
   image: assets/og-card.png
   favicon: assets/favicon.png
   navbar:
-    title: "SR"
+    title: "Home"
     pinned: true
     left:
-      - text: "Home"
-        href: index.qmd
       - text: "Projects"
         href: projects/index.qmd
       - text: "Research"

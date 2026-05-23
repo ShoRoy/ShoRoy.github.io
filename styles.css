@@ -500,7 +500,8 @@ h2 {
   margin: 0 0 1.2rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid var(--line);
-  letter-spacing: -0.005em;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 .focus-strip.focus-strip-5 {
