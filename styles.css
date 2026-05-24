@@ -597,6 +597,24 @@ h2 {
   }
 }
 
+/* Source-order override: the base rules for
+ * `.focus-strip.focus-strip-5` and `.grid.grid-featured-works` are
+ * defined AFTER the original `@media (max-width: 780px)` block higher
+ * in this file. With equal specificity (0,0,2,0), CSS cascade gives
+ * the later rule the win — so at phone widths the 5-col / 6-col base
+ * layouts were still beating the 780px collapse. This second 780px
+ * block placed AFTER all base rules fixes that by being the last
+ * matching rule. */
+@media (max-width: 780px) {
+  .focus-strip.focus-strip-5,
+  .grid.grid-featured-works {
+    grid-template-columns: 1fr;
+  }
+  .grid-featured-works .card {
+    grid-column: auto;
+  }
+}
+
 @media print {
   .navbar,
   nav.navbar,
