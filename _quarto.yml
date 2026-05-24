@@ -4,7 +4,6 @@ project:
   render:
     - "*.qmd"
     - "projects/*.qmd"
-    - "notes/*.qmd"
   resources:
     - "robots.txt"
     - "assets/Resume.pdf"
