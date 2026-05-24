@@ -500,7 +500,7 @@ h2 {
   margin: 0 0 1.2rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid var(--line);
-  overflow-wrap: break-word;
+  overflow-wrap: anywhere;
   hyphens: auto;
 }
 
@@ -515,18 +515,10 @@ h2 {
   hyphens: auto;
 }
 
-/* Below the mobile breakpoint, narrow columns + justification produce
- * ugly word-spacing rivers even with hyphens: auto, and browser
- * hyphenation can break words at odd places. Drop back to left-align
- * (natural ragged right) on narrow screens — browsers handle this best
- * by default. */
-@media (max-width: 780px) {
-  .dek-justified,
-  .feature p {
-    text-align: left;
-    hyphens: manual;
-  }
-}
+/* Mobile override previously switched .dek-justified and .feature p
+ * back to left-align to avoid word-spacing rivers, but the user
+ * prefers justified text on mobile as well. Base rule (justify +
+ * hyphens: auto) now applies across all viewports. */
 
 /* ---------- Trial: Featured Works (5-card grid with 3MT) ---------- *
  * Single row of 5 narrower-taller cards. Cards are equal-height via
@@ -559,12 +551,16 @@ h2 {
   font-size: 1.02rem;
   line-height: 1.25;
   margin: 0 0 0.55rem;
+  overflow-wrap: anywhere;
+  hyphens: auto;
 }
 
 .grid-featured-works .card p {
   font-size: 0.88rem;
   line-height: 1.5;
   margin: 0 0 0.7rem;
+  overflow-wrap: anywhere;
+  hyphens: auto;
 }
 
 /* Pin the link to the card bottom so the row looks aligned. */

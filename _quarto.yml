@@ -47,7 +47,7 @@ website:
         href: assets/Resume.pdf
   page-footer:
     left: "Copyright 2026 S Roy"
-    right: "Built with Quarto &middot; AI-assisted with Claude Code + VS Code (Agent Mode)"
+    right: "Built with Quarto &middot; AI-assisted (Claude Code + VS Code Agent Mode)"
   open-graph: false
   twitter-card: false
   search: false
