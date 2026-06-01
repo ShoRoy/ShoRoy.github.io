@@ -6,6 +6,11 @@ Thumbs.db
 **/*.quarto_ipynb
 /.github/agents/
 
+# Local agent definitions contain private positioning notes / references —
+# never publish to the public repo. Kept on disk for VS Code workspace-agent
+# discovery only.
+/.claude/
+
 # Article PDFs dropped into assets/ for figure extraction only.
 # The downloadable resume is tracked explicitly.
 assets/*.pdf

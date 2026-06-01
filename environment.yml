@@ -1,0 +1,17 @@
+# Build environment for the Quarto research website.
+#
+#   conda env create -f environment.yml      # first time
+#   conda env update -f environment.yml       # after edits
+#   conda activate website
+#
+# Rendering needs only the `quarto` CLI (the site has no executable code
+# cells). `fonttools` is for scripts/text-to-svg-path.py, which regenerates
+# the inline hero-name SVG from a TTF. The Lato TTF is a separate system
+# install (see README); it is not a conda package.
+name: website
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - quarto
+  - fonttools
