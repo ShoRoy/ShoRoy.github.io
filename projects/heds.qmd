@@ -17,7 +17,7 @@ summary: "A deep learning and computational mechanics framework for damage-sensi
 
 ## Problem
 
-Energetic-material sensitivity is controlled by how microstructure concentrates energy under shock loading: where pores collapse, how damage accumulates, whether a hotspot grows or decays. The practical question for a hiring lens: given a synthetic or imaged microstructure, can we predict whether it is more or less likely to ignite under shock &mdash; with physics constraints baked in rather than learned by accident?
+Energetic-material sensitivity is controlled by how microstructure concentrates energy under shock loading: where pores collapse, how damage accumulates, whether a hotspot grows or decays. The practical question is direct: given a synthetic or imaged microstructure, can we predict whether it is more or less likely to ignite under shock &mdash; with physics constraints baked in rather than learned by accident?
 
 ## Technical Approach
 
