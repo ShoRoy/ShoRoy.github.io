@@ -76,6 +76,6 @@ Model registry, provenance and lineage tracking, RAG over scientific data, multi
 ::: {.card}
 ### Adjacent SciML stack
 
-Conversant with **PINNs**, **FNO**, **DeepONet**, differentiable simulation, active learning, and Bayesian optimization &mdash; built through architecture evaluation, collaboration with the UVA Baek group, and the joint PADL course.
+Conversant with **PINNs**, **FNO**, **DeepONet**, and differentiable simulation &mdash; built through architecture evaluation, collaboration with the UVA Baek group, and the joint PADL course.
 :::
 :::
