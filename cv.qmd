@@ -31,7 +31,7 @@ My work spans solver development, microstructure-resolved DNS, HPC production ca
 - Co-architected **D-PARC** (Beerman, **Roy**, et al., 2026) &mdash; a physics-aware deformable-convolution neural operator; contributed the hybrid Lagrangian&ndash;Eulerian / deformable-convolution analogy.
 - Leading the design of an **agentic microstructure-to-prediction sub-pipeline** as part of a closed-loop materials-discovery framework co-designed with my PI.
 - 7 peer-reviewed journal papers across **Shock Waves**, **Journal of Applied Physics**, **Journal of Fluid Mechanics**, and **APL Machine Learning**.
-- Production HPC campaigns resolving sub-micron damage features at **150M cells, 7,000 cores, ~3M CPU-hours at 15 nm grid resolution**.
+- Production HPC campaigns resolving sub-micron damage features at **140M cells, 7,000 cores, ~2.8M CPU-hours at 15 nm grid resolution**.
 - Mentoring **1 postdoc, 2 graduate students, and 1 undergraduate intern** at IIHR / University of Iowa; multi-institution research interfaces across AFOSR-MURI, ONR-MURI, UIUC, LANL, UVA, IIT Delhi, and IIT Madras.
 
 ## Education

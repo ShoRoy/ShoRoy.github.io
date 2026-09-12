@@ -29,7 +29,7 @@ DNS ground truth and physics-consistent evaluation for PARC and D-PARC neural su
 ::: {.card}
 ### Production HPC campaigns
 
-Microstructure-resolved mesoscale simulations on DoD HPC systems &mdash; 150M cells, 7,000 cores, ~3M CPU-hours per campaign &mdash; sized so hotspot statistics actually converge.
+Microstructure-resolved mesoscale simulations on DoD HPC systems &mdash; 140M cells, 7,000 cores, ~2.8M CPU-hours per campaign &mdash; sized so hotspot statistics actually converge.
 
 *Production simulation &middot; Shock-to-detonation*
 

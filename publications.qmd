@@ -15,7 +15,7 @@ description: "Peer-reviewed journals, proceedings, preprints, and selected prese
 
 ## Peer-Reviewed Journals
 
-1. Okafor, C., Seshadri, P.K., **Roy, S.**, & Udaykumar, H.S. - *High-Order Eulerian Sharp Interface Numerical Techniques for Computing Multi-Material Interaction Problems with an Arbitrary Number of Materials*, **Shock Waves** (accepted, in production, 2026).
+1. Okafor, C., Seshadri, P.K., **Roy, S.**, & Udaykumar, H.S. - *High-order Eulerian Sharp Interface Numerical Techniques for Micro- to Macro-Scale Simulation of Shocked Energetic Materials*, **Shock Waves** 36, article 18, 2026. Open access. [doi:10.1007/s00193-026-01270-8](https://doi.org/10.1007/s00193-026-01270-8)
 2. **Roy, S.**, Seshadri, P.K., Okafor, C., Johnson, B.P., & Udaykumar, H.S. - *High-Fidelity Simulations of Shock Initiation of an Energetic Crystal-Binder System Due to Flyer Impact*, **Shock Waves** 36(2), 2026. [doi:10.1007/s00193-025-01260-2](https://doi.org/10.1007/s00193-025-01260-2)
 3. Fang, I., **Roy, S.**, Nguyen, P.C.H., Baek, S.S., Udaykumar, H.S. - *Heterogeneous Energetic Material Damage Simulator (HEDS): A Deep Learning Approach to Simulate Damage-Sensitivity Linkages*, **APL Machine Learning** 3(2), 2025. [doi:10.1063/5.0257683](https://doi.org/10.1063/5.0257683)
 4. **Roy, S.**, Johnson, B.P., Zhou, X., Nguyen, Y.T.H., Dlott, D.D., & Udaykumar, H.S. - *Hot Spot Ignition and Growth from Tandem Micro-Scale Simulations and Experiments on Plastic-Bonded Explosives*, **Journal of Applied Physics** 131(20), 2022. [doi:10.1063/5.0085356](https://doi.org/10.1063/5.0085356)

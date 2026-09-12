@@ -24,9 +24,9 @@ I designed and managed production-scale reactive multi-material simulation campa
 
 ## Scale and Constraints
 
-- **Grid:** 150M cells
+- **Grid:** 140M cells
 - **Concurrency:** 7,000 CPU cores
-- **Compute:** ~3M CPU-hours per representative campaign
+- **Compute:** ~2.8M CPU-hours per representative campaign
 - **Grid resolution:** 15 nm on mesoscale sub-samples (50 &times; 70 &mu;m, 1&ndash;2 energetic crystals), with subsequent campaigns at 10 nm
 - **Why this scale:** hotspot statistics approached a grid-converged threshold only when sub-micron microstructural features were explicitly resolved &mdash; under that, the answers move with grid, not with physics.
 
