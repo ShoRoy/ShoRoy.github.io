@@ -1,6 +1,28 @@
-# Discourage all crawlers from indexing this site.
-# The site is still accessible directly via URL, but should not surface
-# in search results (Google, Bing, DuckDuckGo, etc.).
+# REMOVAL PHASE - set 2026-09-13. Read this before "tightening" it again.
+#
+# Crawling is deliberately ALLOWED so that crawlers can fetch each page and read the
+#   <meta name="robots" content="noindex, nofollow">
+# that every page carries. That meta tag is what actually removes a URL from an index.
+#
+# A blanket "Disallow: /" does NOT hide a site. It stops the crawler fetching the page,
+# so the noindex is never read, while the URL stays indexed on the strength of inbound
+# links - frozen, with whatever title and snippet were cached before the block. That is
+# exactly what happened here: cv.html, publications.html and contact.html sat in search
+# results under pre-scrub, name-bearing titles that could not be refreshed or removed.
+#
+# sitemap.xml is intentionally still advertised: it makes crawlers revisit every page
+# and read the noindex, which speeds removal up rather than slowing it down.
+#
+# /assets/ stays blocked. Binary files cannot carry a meta robots tag and GitHub Pages
+# cannot send an X-Robots-Tag header, so the resume PDF, headshot and figures have no
+# way to say "noindex". None of them are currently indexed; keep it that way.
+#
+# ONCE the stale entries are gone (verify with a site: query), restoring "Disallow: /"
+# is optional belt-and-braces. Do NOT restore it before then - it re-freezes whatever
+# is still in the index.
 
 User-agent: *
-Disallow: /
+Allow: /
+Disallow: /assets/
+
+Sitemap: https://www.shobhanroy.com/sitemap.xml
