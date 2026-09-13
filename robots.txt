@@ -17,9 +17,15 @@
 # cannot send an X-Robots-Tag header, so the resume PDF, headshot and figures have no
 # way to say "noindex". None of them are currently indexed; keep it that way.
 #
-# ONCE the stale entries are gone (verify with a site: query), restoring "Disallow: /"
-# is optional belt-and-braces. Do NOT restore it before then - it re-freezes whatever
-# is still in the index.
+# DO NOT "tighten" this back to "Disallow: /" - not now, and not after the stale entries
+# clear. noindex only keeps working while crawlers can keep fetching the page and re-reading
+# it. Block them again and they stop seeing the tag, and these URLs drift back into the
+# index from inbound links - the exact failure this file just fixed. Allow + noindex is the
+# permanent steady state for keeping a site out of search, not a temporary measure.
+#
+# The thing to actually verify (~2026-10-11) is that the stale entries have GONE: run a
+# site:shobhanroy.com query and expect it empty. Fast path is Search Console / Bing
+# Webmaster Tools -> verify the property -> Removals.
 
 User-agent: *
 Allow: /
