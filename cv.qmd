@@ -52,6 +52,8 @@ Advisors: Prof. Santanu Ghosh & Prof. G. Rajesh
 
 ## Honors & Awards
 
+- **Director's Discretionary Allocation**, Argonne Leadership Computing Facility (2026) &mdash; Principal Investigator; 5,000 Aurora + 1,000 Polaris node-hours
+- **Selected Participant**, [Argonne Training Program on Extreme-Scale Computing (ATPESC)](https://extremecomputingtraining.anl.gov/) 2026 &mdash; fully funded by the Argonne Leadership Computing Facility
 - **Ballard & Seashore Dissertation Fellowship**, University of Iowa (2025)
 - **1st Place (Graduate Category, Mechanical Engineering)**, Research Open House Poster Competition, College of Engineering, University of Iowa (2025)
 - **Finalist (Top 13)**, University of Iowa Graduate College [Three Minute Thesis (3MT)](https://grad.uiowa.edu/grad-success/3MT) (2024) &mdash; *"How (NOT) to trigger a detonation"* ([talk video](research.html#three-minute-primer); [UIowa 2024 showcase](https://grad.uiowa.edu/grad-success/3MT/past-winners/2024-showcase))
