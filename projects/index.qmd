@@ -7,6 +7,16 @@ Each case study follows the practical arc a technical reader usually wants: prob
 
 ::: {.grid}
 ::: {.card}
+### Physics-aware ML benchmarks
+
+Deformable convolutions in D-PARC, where 19.7M parameters beat a 243.5M-parameter baseline, and pass/fail physics benchmarks for neural surrogates.
+
+*Neural operators &middot; Physics-consistency benchmarks*
+
+[Open project](physics-aware-ml.qmd)
+:::
+
+::: {.card}
 ### SCIMITAR3D solver development
 
 Sharp-interface, multi-material reactive-flow framework. WENO + ghost-fluid integration cuts the grid-refinement overhead for equivalent accuracy by roughly 2.5&ndash;3&times;.
@@ -14,16 +24,6 @@ Sharp-interface, multi-material reactive-flow framework. WENO + ghost-fluid inte
 *Numerical methods &middot; Multi-material solver*
 
 [Open project](scimitar3d.qmd)
-:::
-
-::: {.card}
-### Physics-aware ML benchmarks
-
-DNS ground truth and physics-consistent evaluation for PARC and D-PARC neural surrogates of shocked energetic-material response.
-
-*Neural operators &middot; DNS benchmarks*
-
-[Open project](physics-aware-ml.qmd)
 :::
 
 ::: {.card}
